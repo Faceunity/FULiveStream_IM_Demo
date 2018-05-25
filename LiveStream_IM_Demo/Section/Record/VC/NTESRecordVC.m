@@ -17,7 +17,7 @@
 #import "GPUImageGrayscaleFilter.h"
 #import "GPUImageHueFilter.h"
 
-#import "NTESFaceUManager.h"
+#import "FUManager.h"
 
 typedef void(^RecordCompleteBlock)(NSError *error, NSString *path);
 typedef void(^RecordStartBlock)(NSError *error);
@@ -154,7 +154,10 @@ typedef void(^RecordStartBlock)(NSError *error);
         
         WEAK_SELF(weakSelf);
         _externalVideoFrameCallBack = ^(CMSampleBufferRef pixelBuf) {
-            [[NTESFaceUManager shareInstance] processSampleBuffer:pixelBuf];
+            
+            CVPixelBufferRef buffer = CMSampleBufferGetImageBuffer(pixelBuf) ;
+            [[FUManager shareManager] renderItemsToPixelBuffer:buffer];
+            
             [weakSelf.mediaCapture externalInputVideoFrame:pixelBuf];
         };
         
@@ -274,7 +277,7 @@ typedef void(^RecordStartBlock)(NSError *error);
     
     NSArray *items = [NTESRecordDataCenter shareInstance].config.faceUDatas;
     if (index != 0) {
-        [[NTESFaceUManager shareInstance] reloadItem:items[index]];
+        [[FUManager shareManager] loadItem:items[index]];
         _mediaCapture.externalVideoFrameCallback = _externalVideoFrameCallBack;
     }
     else {

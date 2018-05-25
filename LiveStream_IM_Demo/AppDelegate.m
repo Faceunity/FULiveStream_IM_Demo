@@ -79,6 +79,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
+    
     NTESRootNavVC *nav = [[NTESRootNavVC alloc] initWithRootViewController:[NTESLoginVC new]];
     self.window.rootViewController = nav;
 }

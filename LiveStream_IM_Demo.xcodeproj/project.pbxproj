@@ -58,7 +58,6 @@
 		A12FE9621F04CC14002D8D79 /* test_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12FE95F1F04CC14002D8D79 /* test_2.mp3 */; };
 		A12FE9631F04CC14002D8D79 /* test_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A12FE9601F04CC14002D8D79 /* test_3.mp3 */; };
 		A132BC651F26E941003412BA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A132BC641F26E941003412BA /* Accelerate.framework */; };
-		A132BC931F26F35B003412BA /* NTESFaceUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A132BC921F26F35B003412BA /* NTESFaceUManager.m */; };
 		A132BCC21F2F0F32003412BA /* NTESAutoRemoveNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A132BCC11F2F0F32003412BA /* NTESAutoRemoveNotification.m */; };
 		A13E079B1EE153F60044BDBA /* NTESFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E079A1EE153F60044BDBA /* NTESFrameView.m */; };
 		A13E07A11EE538960044BDBA /* NTESTrimBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E07A01EE538960044BDBA /* NTESTrimBorder.m */; };
@@ -445,8 +444,6 @@
 		A132BC5C1F262FDD003412BA /* LSMediaTranscodingParaCtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMediaTranscodingParaCtx.h; sourceTree = "<group>"; };
 		A132BC641F26E941003412BA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		A132BC661F26E970003412BA /* libnama.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnama.a; path = "SdkFrameworks/Faceunity/FaceUnity-SDK-iOS/libnama.a"; sourceTree = "<group>"; };
-		A132BC911F26F35B003412BA /* NTESFaceUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESFaceUManager.h; sourceTree = "<group>"; };
-		A132BC921F26F35B003412BA /* NTESFaceUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESFaceUManager.m; sourceTree = "<group>"; };
 		A132BCC01F2F0F32003412BA /* NTESAutoRemoveNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESAutoRemoveNotification.h; sourceTree = "<group>"; };
 		A132BCC11F2F0F32003412BA /* NTESAutoRemoveNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESAutoRemoveNotification.m; sourceTree = "<group>"; };
 		A13E07991EE153F60044BDBA /* NTESFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTESFrameView.h; path = VideoEdit/View/TrimView/NTESFrameView.h; sourceTree = "<group>"; };
@@ -2210,8 +2207,6 @@
 			children = (
 				E680C2BE1ECB0C5700CF4235 /* NTESRecordDataCenter.h */,
 				E680C2BF1ECB0C5700CF4235 /* NTESRecordDataCenter.m */,
-				A132BC911F26F35B003412BA /* NTESFaceUManager.h */,
-				A132BC921F26F35B003412BA /* NTESFaceUManager.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -3390,7 +3385,6 @@
 				E668CC241E657E4900564629 /* NTESDemandHomeVC.m in Sources */,
 				E680C2841ECB006900CF4235 /* NTESShareMenuBar.m in Sources */,
 				A16FFEFB1F8B1A660067AB17 /* NSString+NTES.m in Sources */,
-				A132BC931F26F35B003412BA /* NTESFaceUManager.m in Sources */,
 				E680C2B51ECB0B4600CF4235 /* NTESAlubmVC.m in Sources */,
 				E680C3291ECB0D0300CF4235 /* NTESDaoService+Update.m in Sources */,
 				E680C2831ECB006900CF4235 /* NTESMenuView.m in Sources */,
