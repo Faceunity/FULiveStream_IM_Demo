@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "134C9FD166DBAC9F55D4471DA5FB87F748BEAE8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD9CB7976B99618875208B1F30EBFDBEBAEC678A" : 9223372036854775807,
+    "134C9FD166DBAC9F55D4471DA5FB87F748BEAE8C" : 9223372036854775807,
+    "201899CBCE221E4AC92F7713C2C6B7AC242B73E4" : 9223372036854775807,
+    "219B4C04B5EA74A6FF242E573D32E6D4141061AB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB39A82A-CF06-4DB9-B126-7C2CECCA7D08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD9CB7976B99618875208B1F30EBFDBEBAEC678A" : "NMC\/",
+    "134C9FD166DBAC9F55D4471DA5FB87F748BEAE8C" : "LiveApp_Demo_iOS\/",
+    "201899CBCE221E4AC92F7713C2C6B7AC242B73E4" : "LSMediaOnDemand_IOS\/",
+    "219B4C04B5EA74A6FF242E573D32E6D4141061AB" : "VCloudUploadSDK_iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveStream_IM_Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LiveStream_IM_Demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/g.hz.netease.com:22222\/vcloud-sdk\/LiveApp_Demo_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "134C9FD166DBAC9F55D4471DA5FB87F748BEAE8C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/g.hz.netease.com:22222\/vcloud-sdk\/LSMediaOnDemand_IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "201899CBCE221E4AC92F7713C2C6B7AC242B73E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/g.hz.netease.com:22222\/vcloud-sdk\/VCloudUploadSDK_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "219B4C04B5EA74A6FF242E573D32E6D4141061AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/g.hz.netease.com\/nmc_ios\/NMC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD9CB7976B99618875208B1F30EBFDBEBAEC678A"
+    }
+  ]
+}
