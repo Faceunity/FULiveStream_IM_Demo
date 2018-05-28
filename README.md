@@ -1,6 +1,6 @@
-# FULiveAppDemo 快速接入文档
+# FULiveStream_IM_Demo 快速接入文档
 
-FULiveAppDemo 是集成了 [Faceunity](https://github.com/Faceunity/FULiveDemo/tree/dev) 面部跟踪和虚拟道具功能和网易云信直播功能的 Demo。
+FULiveStream_IM_Demo 是集成了 [Faceunity](https://github.com/Faceunity/FULiveDemo/tree/dev) 面部跟踪和虚拟道具功能和网易云信直播功能的 Demo。
 
 本文是 FaceUnity SDK 快速对接七牛短视频的导读说明，关于 FaceUnity SDK 的更多详细说明，请参看 [FULiveDemo](https://github.com/Faceunity/FULiveDemo/tree/dev)
 
