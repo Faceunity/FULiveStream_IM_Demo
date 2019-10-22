@@ -14,6 +14,7 @@
 
 + (instancetype)shareInstance;
 
+// aaaa
 + (void)clear;
 
 //配置参数（段数、时长等）

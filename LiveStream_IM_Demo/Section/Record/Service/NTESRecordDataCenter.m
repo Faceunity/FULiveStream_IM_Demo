@@ -44,9 +44,8 @@
     _config.filterDatas = @[@"无", @"黑白", @"自然", @"粉嫩", @"怀旧", @"Cus1", @"Cus2"];
     _config.filterIndex = [self filterIndexWithFilterType:_pRecordPara.sLSRecordVideoParaCtx.filterType];
 //    _config.faceUDatas = @[@"特效1", @"特效2", @"特效3", @"特效4"];
-    _config.faceUTitleDatas = @[@"无", @"特效1",@"特效2",@"特效3",@"特效4",@"特效5",@"特效6",@"特效7",@"特效8",@"特效9",@"特效10",@"特效11",@"特效12",@"特效13", @"特效14",@"特效15",@"特效16",@"特效17",@"特效18",@"特效19"];
-    
-    _config.faceUDatas = @[@"noitem",@"fengya_ztt_fu",  @"hudie_lm_fu",  @"juanhuzi_lm_fu",  @"mask_hat",  @"touhua_ztt_fu",  @"yazui",  @"yuguan", @"tiara", @"item0208", @"PrincessCrown", @"Mood" , @"Deer" , @"BeagleDog", @"item0501", @"item0210",  @"HappyRabbi", @"item0204", @"hartshorn", @"ColorCrown"];
+    _config.faceUTitleDatas = @[@"无", @"特效1",@"特效2",@"特效3",@"特效4",@"特效5",@"特效6",@"特效7",@"特效8",@"特效9",@"特效10",@"特效11",@"特效12",@"特效13"];
+    _config.faceUDatas = @[@"noitem", @"tiara", @"item0208", @"YellowEar", @"PrincessCrown", @"Mood" , @"Deer" , @"BeagleDog", @"item0501", @"item0210",  @"HappyRabbi", @"item0204", @"hartshorn", @"ColorCrown"];
     _config.faceIndex = 0;
     _config.section = 3;
     _config.duration = 10;
