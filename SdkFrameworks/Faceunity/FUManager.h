@@ -46,6 +46,8 @@
 @property (nonatomic, strong) NSArray<NSString *> *itemsDataSource;  /**道具分类数组*/
 @property (nonatomic, strong) NSString *selectedItem;     /**选中的道具名称*/
 
+@property (nonatomic, assign) BOOL isShown ;
+
 + (FUManager *)shareManager;
 
 /**初始化Faceunity,加载道具*/
@@ -62,8 +64,6 @@
 
 /**将道具绘制到pixelBuffer*/
 - (CVPixelBufferRef)renderItemsToPixelBuffer:(CVPixelBufferRef)pixelBuffer;
-
-- (void)renderItemsWithY:(uint8_t*)y u:(uint8_t*)u v:(uint8_t*)v ystride:(int)ystride ustride:(int)ustride vstride:(int)vstride width:(int)width height:(int)height ;
 
 /**获取75个人脸特征点*/
 - (void)getLandmarks:(float *)landmarks;

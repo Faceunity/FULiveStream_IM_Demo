@@ -488,7 +488,6 @@
 //开始直播
 - (void)startLiveAction:(UIButton *)btn
 {
-    
     if ([RealReachability sharedInstance].currentReachabilityStatus == RealStatusViaWWAN)
     {
         //提示用户

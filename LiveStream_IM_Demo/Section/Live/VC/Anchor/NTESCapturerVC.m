@@ -11,8 +11,7 @@
 
 #import <FUAPIDemoBar/FUAPIDemoBar.h>
 #import "FUManager.h"
-
-@interface NTESCapturerVC ()<FUAPIDemoBarDelegate>
+@interface NTESCapturerVC ()
 {
     BOOL _videoIsPause;
     BOOL _audioIsPause;
@@ -33,7 +32,6 @@
 @property (nonatomic, copy) LiveCompleteBlock stopStreamBlock;
 @property (nonatomic, copy) LiveCompleteBlock startStreamBlock;
 
-
 /****   ---- FaceUnity ----     ****/
 @property (nonatomic, strong) FUAPIDemoBar *demoBar ;
 /****   ---- FaceUnity ----     ****/
@@ -41,8 +39,6 @@
 
 @implementation NTESCapturerVC
 
-
-#pragma mark ---- 具体接入文档见 https://github.com/Faceunity/FULiveDemo/tree/dev
 /****   ---- FaceUnity ----     ****/
 - (void)processBuffer:(CMSampleBufferRef)sampleBuffer {
     
@@ -58,6 +54,8 @@
     
     [[FUManager shareManager] loadItems];
     [self.view addSubview:self.demoBar];
+    
+    
 }
 
 
@@ -135,9 +133,6 @@
     
     [[FUManager shareManager] destoryItems];
 }
-
-/****   ---- FaceUnity ----     ****/
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -459,26 +454,26 @@
 }
 
 //滤镜
-- (void)setFilterType:(NSInteger)index
-{
-    if (index < 0 || index > 4)
-    {
-        NSLog(@"滤镜选择范围出错[0-4], 当前选择[%zi]", index);
-    }
-    else
-    {
-        if (!self.capturer)
-        {
-            NSLog(@"[Demo] >>>> self.capturer 为空");
-        }
-        else
-        {
-            [self.capturer setFilterType:(LSGpuImageFilterType)index];
-            
-            self.pParaCtx.sLSVideoParaCtx.filterType = (LSGpuImageFilterType)index;
-        }
-    }
-}
+//- (void)setFilterType:(NSInteger)index
+//{
+//    if (index < 0 || index > 4)
+//    {
+//        NSLog(@"滤镜选择范围出错[0-4], 当前选择[%zi]", index);
+//    }
+//    else
+//    {
+//        if (!self.capturer)
+//        {
+//            NSLog(@"[Demo] >>>> self.capturer 为空");
+//        }
+//        else
+//        {
+//            [self.capturer setFilterType:(LSGpuImageFilterType)index];
+//
+//            self.pParaCtx.sLSVideoParaCtx.filterType = (LSGpuImageFilterType)index;
+//        }
+//    }
+//}
 
 //伴音
 - (void)setAudioType:(NSInteger)index;
@@ -805,6 +800,9 @@
     if (!_capturer) {
         _capturer = [[LSMediaCapture alloc] initLiveStream:self.pushUrl withLivestreamParaCtxConfiguration:self.pParaCtx];
         [_capturer setTraceLevel:LS_LOG_RESV];
+        [_capturer setFilterType:LS_GPUIMAGE_NORMAL];
+        [_capturer setSmoothFilterIntensity:0.0];
+        [_capturer setWhiteningFilterIntensity:0.0];
         
         if (_capturer == nil) {
             NSLog(@"[Demo] >>>> 推流sdk初始化失败");
@@ -822,6 +820,7 @@
         _capturer.onZoomScaleValueChanged = ^(CGFloat value){
             [weakSelf doZoomScaleValueChanged:value];
         };
+        
         
         // 获取视频数据
         /****   ---- FaceUnity ----     ****/
