@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B4A941A21BFA1F90053C855 /* FUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A940221BFA1F80053C855 /* FUManager.m */; };
-		0B4A941B21BFA1F90053C855 /* libnama.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A940721BFA1F80053C855 /* libnama.a */; };
-		0B4A941C21BFA1F90053C855 /* release_note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A940821BFA1F80053C855 /* release_note.txt */; };
-		0B4A941F21BFA1F90053C855 /* face_beautification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A940C21BFA1F80053C855 /* face_beautification.bundle */; };
-		0B4A942021BFA1F90053C855 /* fxaa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A940D21BFA1F80053C855 /* fxaa.bundle */; };
-		0B4A942121BFA1F90053C855 /* v3.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A940E21BFA1F80053C855 /* v3.bundle */; };
 		0B4A942221BFA1F90053C855 /* fengya_ztt_fu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A941021BFA1F80053C855 /* fengya_ztt_fu.bundle */; };
 		0B4A942321BFA1F90053C855 /* hudie_lm_fu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A941121BFA1F80053C855 /* hudie_lm_fu.bundle */; };
 		0B4A942421BFA1F90053C855 /* juanhuzi_lm_fu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A941221BFA1F80053C855 /* juanhuzi_lm_fu.bundle */; };
@@ -164,6 +159,13 @@
 		A1F22D381ED91A74006E99DD /* NTESTextureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F22D371ED91A74006E99DD /* NTESTextureView.m */; };
 		A1F22D3B1ED91A95006E99DD /* NTESAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F22D3A1ED91A95006E99DD /* NTESAudioView.m */; };
 		A1FA00381F13880B005E80EB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FA00371F13880B005E80EB /* libresolv.tbd */; };
+		E383C18924470AF80061A9A0 /* release_note.txt in Resources */ = {isa = PBXBuildFile; fileRef = E383C17C24470AF80061A9A0 /* release_note.txt */; };
+		E383C18A24470AF80061A9A0 /* libnama.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E383C17D24470AF80061A9A0 /* libnama.a */; };
+		E383C18B24470AF80061A9A0 /* v3.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E383C17F24470AF80061A9A0 /* v3.bundle */; };
+		E383C18C24470AF80061A9A0 /* tongue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E383C18124470AF80061A9A0 /* tongue.bundle */; };
+		E383C18D24470AF80061A9A0 /* ai_face_processor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E383C18224470AF80061A9A0 /* ai_face_processor.bundle */; };
+		E383C18E24470AF80061A9A0 /* face_beautification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E383C18324470AF80061A9A0 /* face_beautification.bundle */; };
+		E383C18F24470AF80061A9A0 /* libfuai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E383C18824470AF80061A9A0 /* libfuai.a */; };
 		E60D35091E7FA32900521C9D /* NTESAuthorizationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D35081E7FA32900521C9D /* NTESAuthorizationHelper.m */; };
 		E63B04451E66953300E090B2 /* NTESLiveHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E63B04441E66953300E090B2 /* NTESLiveHomeVC.m */; };
 		E6463B121EAF32E800A578C4 /* NTESBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6463B111EAF32E800A578C4 /* NTESBaseView.m */; };
@@ -361,13 +363,6 @@
 
 /* Begin PBXFileReference section */
 		0B4A940221BFA1F80053C855 /* FUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUManager.m; sourceTree = "<group>"; };
-		0B4A940521BFA1F80053C855 /* funama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funama.h; sourceTree = "<group>"; };
-		0B4A940621BFA1F80053C855 /* FURenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FURenderer.h; sourceTree = "<group>"; };
-		0B4A940721BFA1F80053C855 /* libnama.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnama.a; sourceTree = "<group>"; };
-		0B4A940821BFA1F80053C855 /* release_note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_note.txt; sourceTree = "<group>"; };
-		0B4A940C21BFA1F80053C855 /* face_beautification.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = face_beautification.bundle; sourceTree = "<group>"; };
-		0B4A940D21BFA1F80053C855 /* fxaa.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = fxaa.bundle; sourceTree = "<group>"; };
-		0B4A940E21BFA1F80053C855 /* v3.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.bundle; sourceTree = "<group>"; };
 		0B4A941021BFA1F80053C855 /* fengya_ztt_fu.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = fengya_ztt_fu.bundle; sourceTree = "<group>"; };
 		0B4A941121BFA1F80053C855 /* hudie_lm_fu.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = hudie_lm_fu.bundle; sourceTree = "<group>"; };
 		0B4A941221BFA1F80053C855 /* juanhuzi_lm_fu.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = juanhuzi_lm_fu.bundle; sourceTree = "<group>"; };
@@ -736,6 +731,15 @@
 		A1F22D391ED91A95006E99DD /* NTESAudioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTESAudioView.h; path = VideoEdit/View/EditView/NTESAudioView.h; sourceTree = "<group>"; };
 		A1F22D3A1ED91A95006E99DD /* NTESAudioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTESAudioView.m; path = VideoEdit/View/EditView/NTESAudioView.m; sourceTree = "<group>"; };
 		A1FA00371F13880B005E80EB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		E383C17C24470AF80061A9A0 /* release_note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_note.txt; sourceTree = "<group>"; };
+		E383C17D24470AF80061A9A0 /* libnama.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnama.a; sourceTree = "<group>"; };
+		E383C17F24470AF80061A9A0 /* v3.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.bundle; sourceTree = "<group>"; };
+		E383C18124470AF80061A9A0 /* tongue.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = tongue.bundle; sourceTree = "<group>"; };
+		E383C18224470AF80061A9A0 /* ai_face_processor.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = ai_face_processor.bundle; sourceTree = "<group>"; };
+		E383C18324470AF80061A9A0 /* face_beautification.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = face_beautification.bundle; sourceTree = "<group>"; };
+		E383C18624470AF80061A9A0 /* funama.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funama.h; sourceTree = "<group>"; };
+		E383C18724470AF80061A9A0 /* FURenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FURenderer.h; sourceTree = "<group>"; };
+		E383C18824470AF80061A9A0 /* libfuai.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfuai.a; sourceTree = "<group>"; };
 		E60D35071E7FA32900521C9D /* NTESAuthorizationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESAuthorizationHelper.h; sourceTree = "<group>"; };
 		E60D35081E7FA32900521C9D /* NTESAuthorizationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESAuthorizationHelper.m; sourceTree = "<group>"; };
 		E62DB1EC1ECAD01500CC1FCA /* LSMediaCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMediaCapture.h; sourceTree = "<group>"; };
@@ -1148,14 +1152,15 @@
 				A1722F5C1F9992C30033F425 /* libssl.a in Frameworks */,
 				A1722F5A1F99927C0033F425 /* libLSMediaCapture.a in Frameworks */,
 				A1722F5B1F9992820033F425 /* libNMCAVCoder.a in Frameworks */,
+				E383C18F24470AF80061A9A0 /* libfuai.a in Frameworks */,
 				A12D241D1F8B48F6007C7F8C /* libNMCBasicModule.a in Frameworks */,
 				A12D241E1F8B48F6007C7F8C /* libNMCVideoModule.a in Frameworks */,
 				A12D241F1F8B48F6007C7F8C /* librtmp.a in Frameworks */,
 				A12D24201F8B4907007C7F8C /* libfdk-aac.a in Frameworks */,
 				A12D24211F8B4907007C7F8C /* libGPUImage.a in Frameworks */,
-				0B4A941B21BFA1F90053C855 /* libnama.a in Frameworks */,
 				0B4A942A21BFA2990053C855 /* FUAPIDemoBar.framework in Frameworks */,
 				A12D24221F8B4907007C7F8C /* libopenh264.a in Frameworks */,
+				E383C18A24470AF80061A9A0 /* libnama.a in Frameworks */,
 				A12D24231F8B4907007C7F8C /* libyuv.a in Frameworks */,
 				A1FA00381F13880B005E80EB /* libresolv.tbd in Frameworks */,
 				A1D7A4B81F1DFABE00ED4C8A /* libLSMediaRecoderAndProcessor.a in Frameworks */,
@@ -1193,36 +1198,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B4A940321BFA1F80053C855 /* FaceUnity-SDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0B4A940421BFA1F80053C855 /* Headers */,
-				0B4A940721BFA1F80053C855 /* libnama.a */,
-				0B4A940821BFA1F80053C855 /* release_note.txt */,
-				0B4A940921BFA1F80053C855 /* Resources */,
-			);
-			path = "FaceUnity-SDK-iOS";
-			sourceTree = "<group>";
-		};
-		0B4A940421BFA1F80053C855 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				0B4A940521BFA1F80053C855 /* funama.h */,
-				0B4A940621BFA1F80053C855 /* FURenderer.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		0B4A940921BFA1F80053C855 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0B4A940C21BFA1F80053C855 /* face_beautification.bundle */,
-				0B4A940D21BFA1F80053C855 /* fxaa.bundle */,
-				0B4A940E21BFA1F80053C855 /* v3.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		0B4A940F21BFA1F80053C855 /* items */ = {
 			isa = PBXGroup;
 			children = (
@@ -1617,7 +1592,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4A941721BFA1F80053C855 /* authpack.h */,
-				0B4A940321BFA1F80053C855 /* FaceUnity-SDK-iOS */,
+				E383C17B24470AF80061A9A0 /* FaceUnity-SDK-iOS */,
 				0B4A941821BFA1F80053C855 /* FUAPIDemoBar.framework */,
 				0B4A941921BFA1F80053C855 /* FUManager.h */,
 				0B4A940221BFA1F80053C855 /* FUManager.m */,
@@ -1669,6 +1644,47 @@
 				A1AE02391F5010E0008FD15F /* NTESTextAttachmentView.m */,
 			);
 			name = EditView;
+			sourceTree = "<group>";
+		};
+		E383C17B24470AF80061A9A0 /* FaceUnity-SDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E383C17C24470AF80061A9A0 /* release_note.txt */,
+				E383C17D24470AF80061A9A0 /* libnama.a */,
+				E383C18824470AF80061A9A0 /* libfuai.a */,
+				E383C17E24470AF80061A9A0 /* Resources */,
+				E383C18524470AF80061A9A0 /* Headers */,
+			);
+			name = "FaceUnity-SDK-iOS";
+			path = "SdkFrameworks/FaceUnity/FaceUnity-SDK-iOS";
+			sourceTree = SOURCE_ROOT;
+		};
+		E383C17E24470AF80061A9A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E383C17F24470AF80061A9A0 /* v3.bundle */,
+				E383C18024470AF80061A9A0 /* AI_model */,
+				E383C18324470AF80061A9A0 /* face_beautification.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E383C18024470AF80061A9A0 /* AI_model */ = {
+			isa = PBXGroup;
+			children = (
+				E383C18124470AF80061A9A0 /* tongue.bundle */,
+				E383C18224470AF80061A9A0 /* ai_face_processor.bundle */,
+			);
+			path = AI_model;
+			sourceTree = "<group>";
+		};
+		E383C18524470AF80061A9A0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E383C18624470AF80061A9A0 /* funama.h */,
+				E383C18724470AF80061A9A0 /* FURenderer.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		E62DB1EA1ECAD01500CC1FCA /* LiveSdk */ = {
@@ -3014,6 +3030,7 @@
 				A1D1BD2A1F31B9ED00407C20 /* oppo43.png in Resources */,
 				A1D1BD3F1F31B9ED00407C20 /* oppo62.png in Resources */,
 				A1D1BD511F31B9ED00407C20 /* oppo79.png in Resources */,
+				E383C18D24470AF80061A9A0 /* ai_face_processor.bundle in Resources */,
 				A1D1BD251F31B9ED00407C20 /* oppo39.png in Resources */,
 				0B4A942321BFA1F90053C855 /* hudie_lm_fu.bundle in Resources */,
 				A1D1BD201F31B9ED00407C20 /* oppo34.png in Resources */,
@@ -3032,6 +3049,7 @@
 				A1D1BD3D1F31B9ED00407C20 /* oppo60.png in Resources */,
 				A12FE9631F04CC14002D8D79 /* test_3.mp3 in Resources */,
 				A1D1BD141F31B9ED00407C20 /* oppo23.png in Resources */,
+				E383C18E24470AF80061A9A0 /* face_beautification.bundle in Resources */,
 				A1D1BD4A1F31B9ED00407C20 /* oppo72.png in Resources */,
 				E680C2731ECB006800CF4235 /* NTESAudienceTopBar.xib in Resources */,
 				A1D1BD311F31B9ED00407C20 /* oppo5.png in Resources */,
@@ -3050,6 +3068,7 @@
 				0B4A942221BFA1F90053C855 /* fengya_ztt_fu.bundle in Resources */,
 				A1D1BD551F31B9ED00407C20 /* oppo82.png in Resources */,
 				A1D1BD421F31B9ED00407C20 /* oppo65.png in Resources */,
+				E383C18924470AF80061A9A0 /* release_note.txt in Resources */,
 				A1D1BD291F31B9ED00407C20 /* oppo42.png in Resources */,
 				0B4A942721BFA1F90053C855 /* yazui.bundle in Resources */,
 				A1D1BD4F1F31B9ED00407C20 /* oppo77.png in Resources */,
@@ -3069,11 +3088,10 @@
 				A1D1BD121F31B9ED00407C20 /* oppo21.png in Resources */,
 				A1D1BD081F31B9EC00407C20 /* oppo12.png in Resources */,
 				A1D7A4BC1F1F370C00ED4C8A /* NMCVideoFilter.bundle in Resources */,
-				0B4A942121BFA1F90053C855 /* v3.bundle in Resources */,
 				A1D1BD381F31B9ED00407C20 /* oppo56.png in Resources */,
-				0B4A942021BFA1F90053C855 /* fxaa.bundle in Resources */,
 				A1D1BD4D1F31B9ED00407C20 /* oppo75.png in Resources */,
 				A1D1BD481F31B9ED00407C20 /* oppo70.png in Resources */,
+				E383C18C24470AF80061A9A0 /* tongue.bundle in Resources */,
 				A1D1BD091F31B9EC00407C20 /* oppo13.png in Resources */,
 				A1D1BD1B1F31B9ED00407C20 /* oppo3.png in Resources */,
 				A1D1BD361F31B9ED00407C20 /* oppo54.png in Resources */,
@@ -3101,15 +3119,14 @@
 				E6ED84921E8917B500856745 /* NTESLoginVC.xib in Resources */,
 				A1D1BD1D1F31B9ED00407C20 /* oppo31.png in Resources */,
 				A1D1BD4B1F31B9ED00407C20 /* oppo73.png in Resources */,
-				0B4A941F21BFA1F90053C855 /* face_beautification.bundle in Resources */,
 				A1D1BD2F1F31B9ED00407C20 /* oppo48.png in Resources */,
 				E65AA4611E4C06930007B6B6 /* 启动页背景.png in Resources */,
 				A1D1BD391F31B9ED00407C20 /* oppo57.png in Resources */,
 				A1D1BD3B1F31B9ED00407C20 /* oppo59.png in Resources */,
 				A1D1BD051F31B9EC00407C20 /* oppo1.png in Resources */,
+				E383C18B24470AF80061A9A0 /* v3.bundle in Resources */,
 				A1D1BD491F31B9ED00407C20 /* oppo71.png in Resources */,
 				A1D1BD331F31B9ED00407C20 /* oppo51.png in Resources */,
-				0B4A941C21BFA1F90053C855 /* release_note.txt in Resources */,
 				A1D1BD0B1F31B9EC00407C20 /* oppo15.png in Resources */,
 				A1D1BD411F31B9ED00407C20 /* oppo64.png in Resources */,
 				A12FE9621F04CC14002D8D79 /* test_2.mp3 in Resources */,
@@ -3185,7 +3202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh/\ncd SdkFrameworks/Faceunity/FaceUnity-SDK-iOS\nfilename=libnama.a\nzipname=libnama.zip\n\nif [ -f \"$zipname\" ];\nthen\nrm -f $filename\nunzip $zipname\nrm -f $zipname\nfi\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh/\ncd SdkFrameworks/Faceunity/FaceUnity-SDK-iOS\nfilename=libnama.a\nzipname=libnama.zip\n\nfilename2=libfuai.a\nzipname2=libfuai.zip\nmdcode=$(md5 $filename)\n\nif [ -f \"$zipname\" ];\nthen\nrm -f $filename\nunzip $zipname\nrm -f $zipname\n\nrm -f $filename2\nunzip $zipname2\nrm -f $zipname2\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3527,6 +3544,7 @@
 					"$(PROJECT_DIR)/SdkFrameworks/RecordSdk/libs",
 					"$(PROJECT_DIR)/SdkFrameworks/Faceunity/FaceUnity-SDK-iOS",
 					"$(PROJECT_DIR)/SdkFrameworks",
+					"$(PROJECT_DIR)/SdkFrameworks/FaceUnity/FaceUnity-SDK-iOS",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -3571,6 +3589,7 @@
 					"$(PROJECT_DIR)/SdkFrameworks/NIMSdk/Libs",
 					"$(PROJECT_DIR)/SdkFrameworks/Faceunity/FaceUnity-SDK-iOS",
 					"$(PROJECT_DIR)/SdkFrameworks",
+					"$(PROJECT_DIR)/SdkFrameworks/FaceUnity/FaceUnity-SDK-iOS",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
