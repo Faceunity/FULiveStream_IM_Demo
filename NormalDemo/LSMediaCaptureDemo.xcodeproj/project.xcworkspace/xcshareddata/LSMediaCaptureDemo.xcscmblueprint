@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD9CB7976B99618875208B1F30EBFDBEBAEC678A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FD9CB7976B99618875208B1F30EBFDBEBAEC678A" : 9223372036854775807,
+    "D4EE591575B4D1014AF303E269ED653736F9C33C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5243FD4F-2A58-4F1D-9DB0-98AF0EF20116",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FD9CB7976B99618875208B1F30EBFDBEBAEC678A" : "NMC\/",
+    "D4EE591575B4D1014AF303E269ED653736F9C33C" : "%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93\/thirdparty\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LSMediaCaptureDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Product\/LiveStreaming\/LSMediaCapture\/LSMediaCaptureDemo\/LSMediaCaptureDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/g.hz.netease.com\/nim_ios\/thirdparty",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D4EE591575B4D1014AF303E269ED653736F9C33C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/g.hz.netease.com\/nmc_ios\/NMC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD9CB7976B99618875208B1F30EBFDBEBAEC678A"
+    }
+  ]
+}
