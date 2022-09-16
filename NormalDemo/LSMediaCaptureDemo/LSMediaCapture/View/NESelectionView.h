@@ -11,7 +11,7 @@
 
 @protocol SelectDelegate <NSObject>
 -(void)startButtonPressed:(UIButton *)sender;
--(void)switchButtonPressed;
+-(void)switchButtonPressed:(UIButton *)sender;
 -(void)mainFilterBtnPressed;
 -(void)musicButtonPressed;
 -(void)interestButtonPressed;

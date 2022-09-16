@@ -37,14 +37,13 @@
 //faceU
 #ifdef KFaceUOn
 #import <GLKit/GLKit.h>
-#import "FUAPIDemoBar.h"
-#import <libCNamaSDK/FURenderer.h>
-#import "FUManager.h"
+
 #include <sys/mman.h>
 #include <sys/stat.h>
-#import "authpack.h"
-#import <SVProgressHUD.h>
-#import "FUTestRecorder.h"
+
+#import "FUDemoManager.h"
+#import "FUManager.h"
+#import <FURenderKit/FUCaptureCamera.h>
 
 #endif
 
@@ -59,10 +58,7 @@
 
 
 
-@interface MediaCaptureViewController () <BackDelegate, SelectDelegate, DidSelectItemAtIndexPathDelegate, FunctionViewDelegate,NECameraDelegate,NEReadFileManagerDelegate,NEAudioEncodeDelegate,NEReadAudioFileManagerDelegate,LSAudioCaptureDelegate,MPMediaPickerControllerDelegate
-#ifdef KFaceUOn
-,FUAPIDemoBarDelegate
-#endif
+@interface MediaCaptureViewController () <BackDelegate, SelectDelegate, DidSelectItemAtIndexPathDelegate, FunctionViewDelegate,FUCaptureCameraDelegate,NEReadFileManagerDelegate,NEAudioEncodeDelegate,NEReadAudioFileManagerDelegate,LSAudioCaptureDelegate,MPMediaPickerControllerDelegate
 >
 
 //头部：查看统计信息，闪光灯，关闭
@@ -87,18 +83,12 @@
 @property (nonatomic, strong) UISegmentedControl *codeMirrorSegment;
 @property (nonatomic, strong) UISegmentedControl *changeQuailtySegment;//分辨率
 
-#ifdef KFaceUOn
-@property(nonatomic, strong) FUAPIDemoBar *demoBar;//工具条
-//@property(nonatomic, strong) UISegmentedControl *filterSegment;//faceU开关
-
-@property(nonatomic, strong) UILabel *noTrackLabel;
-
-#endif
 
 /**
  作为外部摄像头
  */
-@property (nonatomic, strong) NECamera *camera;
+@property (nonatomic, strong) FUCaptureCamera *camera;
+@property(nonatomic, strong) FUDemoManager *demoManager;
 @property(nonatomic, strong) NEAudioCapture *audioCapture;
 //直播SDK API
 @property (nonatomic,strong) LSMediaCapture *mediaCapture;
@@ -120,12 +110,6 @@
     
     BOOL _isAccess;
     
-#ifdef KFaceUOn
-    //faceU
-//    int items[FUNamaHandleTotal];
-//    int frameID;
-#endif
-    
     NETimer *_neTimer;
 }
 
@@ -140,7 +124,7 @@
         _streamUrl = url;
         paraCtx = sLSctx;
         paraCtx.fps = 30;
-        paraCtx.videoStreamingQuality = LS_VIDEO_QUALITY_SUPER;
+        paraCtx.videoStreamingQuality = LS_VIDEO_QUALITY_SUPER_HIGH;
         paraCtx.isFrontCameraMirroredCode = YES;
         paraCtx.isVideoFilterOn = NO;
         [paraCtx setFilterType:(LS_GPUIMAGE_NORMAL)];
@@ -164,6 +148,7 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [NEMediaCaptureEntity sharedInstance].videoParaCtx = paraCtx;
+    [_camera stopCapture];
 }
 
 
@@ -178,20 +163,19 @@
     [self setupSubviews];
     
     #ifdef KFaceUOn
-    //    [self initFaceunity];
     
-        [[FUTestRecorder shareRecorder] setupRecord];
-        [[FUManager shareManager] loadFilter];
-        [FUManager shareManager].isRender = YES;
-        [FUManager shareManager].flipx = NO;
-        [FUManager shareManager].trackFlipx = NO;
+    if (self.isuseFU) {
+
+        // FaceUnity UI
+        CGFloat safeAreaBottom = 0;
+        if (@available(iOS 11.0, *)) {
+            safeAreaBottom = [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom;
+        }
+        
+        self.demoManager = [[FUDemoManager alloc] initWithTargetController:self originY:CGRectGetHeight(self.view.frame) - FUBottomBarHeight - safeAreaBottom - 120];
+        
+    }
     
-        [self.view addSubview:self.demoBar];
-        _noTrackLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 140, 22)];
-        _noTrackLabel.textColor = [UIColor whiteColor];
-        _noTrackLabel.font = [UIFont systemFontOfSize:17];
-        _noTrackLabel.textAlignment = NSTextAlignmentCenter;
-        [self.view addSubview:_noTrackLabel];
     #endif
     
     
@@ -213,7 +197,7 @@
     streamparaCtx.eOutStreamType               = LS_HAVE_AV; //这里可以设置推音视频流／音频流／视频流，如果只推送视频流，则不支持伴奏播放音乐
     streamparaCtx.uploadLog                    = YES;//是否上传sdk日志
     
-    paraCtx.isUseExternalCapture = NO;//是否使用外部视频采集,假设使用外部采集时，摄像头的采集帧率一定要于设置的paraCtx.fps一致，同时码率要调整为对应的码率,对应的分辨率也需要调整
+    paraCtx.isUseExternalCapture = YES;//是否使用外部视频采集,假设使用外部采集时，摄像头的采集帧率一定要于设置的paraCtx.fps一致，同时码率要调整为对应的码率,对应的分辨率也需要调整
     streamparaCtx.sLSAudioParaCtx.isUseExternalCapture = NO;//使用音频外部采集
     
     streamparaCtx.sLSVideoParaCtx = paraCtx;
@@ -226,7 +210,7 @@
     if (streamparaCtx.sLSVideoParaCtx.isUseExternalCapture) {
         if (/* DISABLES CODE */ (1)) {
             //1.从外部摄像头获取数据
-            _camera = [[NECamera alloc] initWithCameraPosition:AVCaptureDevicePositionFront captureFormat:kCVPixelFormatType_420YpCbCr8BiPlanarFullRange];
+            _camera = [[FUCaptureCamera alloc] initWithCameraPosition:(AVCaptureDevicePositionFront) captureFormat:kCVPixelFormatType_420YpCbCr8BiPlanarFullRange];
             _camera.delegate = self;
             [_camera startCapture];
         }else{
@@ -298,32 +282,24 @@
     __weak MediaCaptureViewController *weakSelf = self;
     
     //当用户想拿到摄像头的数据自己做一些处理，再经过网易视频云推送出去,请实现下列接口,在打开preview之前使用，preview看到的将是没有做过任何处理的图像
-    _mediaCapture.externalCaptureSampleBufferCallback = ^(CMSampleBufferRef sampleBuffer)
-    {
-//        NSLog(@"做一些视频前处理操作");
-#ifdef KFaceUOn
-        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            
-//            /* 未检测到人脸提示 */
-//            if ([FURenderer isTracking] >= 1) {
-//                
-//                weakSelf.noTrackLabel.hidden = YES;
-//            }else{
-//        
-//                weakSelf.noTrackLabel.hidden = NO;
-//            }
-//        });
-        
-
-        //Faceunity核心接口，将道具及美颜效果作用到图像中，执行完此函数pixelBuffer即包含美颜及贴纸效果
-        [[FUTestRecorder shareRecorder] processFrameWithLog];
-        CVPixelBufferRef pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
-        [[FUManager shareManager] renderItemsToPixelBuffer:pixelBuffer];
-        
-#warning 执行完上一步骤，即可将pixelBuffer绘制到屏幕上或推流到服务器进行直播
-#endif
-    };
+//    _mediaCapture.externalCaptureSampleBufferCallback = ^(CMSampleBufferRef sampleBuffer)
+//    {
+////        NSLog(@"做一些视频前处理操作");
+//#ifdef KFaceUOn
+//
+//        if (weakSelf.isuseFU) {
+//
+//            //Faceunity核心接口，将道具及美颜效果作用到图像中，执行完此函数pixelBuffer即包含美颜及贴纸效果
+//            [[FUTestRecorder shareRecorder] processFrameWithLog];
+//            CVPixelBufferRef pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
+//            [[FUManager shareManager] renderItemsToPixelBuffer:pixelBuffer];
+//            // 未检测到人脸提示,正式请勿添加
+//            [weakSelf checkAI];
+//        }
+//
+//#warning 执行完上一步骤，即可将pixelBuffer绘制到屏幕上或推流到服务器进行直播
+//#endif
+//    };
     
 //    _mediaCapture.externalCaptureAudioRawData = ^(AudioBufferList *bufferList,NSInteger inNumberFrames) {
 ////        NSLog(@"做一些音频前处理操作");
@@ -414,6 +390,12 @@
 //外部采集摄像头的数据塞回来给SDK推流
 - (void)didOutputVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer{
     //然后塞给 推流sdk
+    if (self.isuseFU) {
+     
+        //Faceunity核心接口，将道具及美颜效果作用到图像中，执行完此函数pixelBuffer即包含美颜及贴纸效果
+        CVPixelBufferRef pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
+        [[FUManager shareManager] renderItemsToPixelBuffer:pixelBuffer];
+    }
     [self.mediaCapture externalInputSampleBuffer:sampleBuffer];
 }
 
@@ -976,8 +958,11 @@
     
 
     #ifdef KFaceUOn
-
-      [[FUManager shareManager] destoryItems];
+    
+    if (self.isuseFU) {
+        
+        [[FUManager shareManager] destoryItems];
+    }
     
     #endif
     
@@ -1004,7 +989,10 @@
                                 [weakMediaCapture unInitLiveStream];
                                 weakMediaCapture = nil;
 #ifdef KFaceUOn
-                                [weakSelf destoryFaceunityItems];
+                                if (weakSelf.isuseFU) {
+                                    
+                                    [[FUManager shareManager] destoryItems];
+                                }
 #endif
                             }];
                         });
@@ -1015,7 +1003,10 @@
                             [weakMediaCapture unInitLiveStream];
                             weakMediaCapture = nil;
 #ifdef KFaceUOn
-                            [weakSelf destoryFaceunityItems];
+                            if (weakSelf.isuseFU) {
+                                
+                                [[FUManager shareManager] destoryItems];
+                            }
 #endif
                         }];
                     }
@@ -1152,7 +1143,7 @@
 {
 }
 
--(void)switchButtonPressed
+-(void)switchButtonPressed:(UIButton *)sender
 {
     if (self.logoView.flashButton.selected == YES) {
         self.logoView.flashButton.selected = NO;
@@ -1164,9 +1155,13 @@
 #ifdef KFaceUOn
 #warning 切换摄像头要调用此函数
     
-    [[FUManager shareManager] onCameraChange];
-    [FUManager shareManager].flipx = ![FUManager shareManager].flipx;
-    [FUManager shareManager].trackFlipx = ![FUManager shareManager].trackFlipx;
+    if (self.isuseFU) {
+        
+        [_camera changeCameraInputDeviceisFront:sender.selected];
+        sender.selected = !sender.selected;
+        [[FUManager shareManager] onCameraChange];
+        [FUManager shareManager].flipx = ![FUManager shareManager].flipx;
+    }
     
 #endif
 }
@@ -1566,55 +1561,5 @@
         }
     }
 }
-
-#ifdef KFaceUOn
-#pragma mark - FaceUnity
-
--(FUAPIDemoBar *)demoBar {
-    if (!_demoBar) {
-        
-        _demoBar = [[FUAPIDemoBar alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 164 - 231, self.view.frame.size.width, 231)];
-        
-        _demoBar.mDelegate = self;
-    }
-    return _demoBar ;
-}
-
-/// 销毁道具
-- (void)destoryFaceunityItems
-{
-
-    [[FUManager shareManager] destoryItems];
-    
-}
-
-#pragma -FUAPIDemoBarDelegate
--(void)filterValueChange:(FUBeautyParam *)param{
-    [[FUManager shareManager] filterValueChange:param];
-}
-
--(void)switchRenderState:(BOOL)state{
-    [FUManager shareManager].isRender = state;
-}
-
--(void)bottomDidChange:(int)index{
-    if (index < 3) {
-        [[FUManager shareManager] setRenderType:FUDataTypeBeautify];
-    }
-    if (index == 3) {
-        [[FUManager shareManager] setRenderType:FUDataTypeStrick];
-    }
-    
-    if (index == 4) {
-        [[FUManager shareManager] setRenderType:FUDataTypeMakeup];
-    }
-    if (index == 5) {
-        
-        [[FUManager shareManager] setRenderType:FUDataTypebody];
-    }
-}
-
-#endif
-
 
 @end

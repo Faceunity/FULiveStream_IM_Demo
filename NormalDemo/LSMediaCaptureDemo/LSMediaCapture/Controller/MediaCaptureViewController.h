@@ -11,4 +11,5 @@
 
 @interface MediaCaptureViewController : UIViewController
 - (instancetype)initWithUrl:(NSString*)url sLSctx:(LSVideoParaCtxConfiguration *)sLSctx;
+@property(nonatomic, assign) BOOL isuseFU;
 @end
