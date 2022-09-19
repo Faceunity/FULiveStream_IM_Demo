@@ -31,6 +31,11 @@
 @property(nonatomic, strong) UILabel *headerLabel;
 @property(nonatomic, strong) UISwitch *aSwitch;
 @property(nonatomic, copy) NSString *urlText;
+
+/// 是否使用FU
+@property(nonatomic, assign) BOOL isuseFU;
+
+
 @end
 
 #define kToolBarHeight 150
@@ -53,6 +58,23 @@
     });
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.rightBtn];
 
+    UIButton *fuBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 28, 28)];
+    fuBtn.userInteractionEnabled = NO;
+    fuBtn.enabled = NO;
+    [fuBtn setTitle:@"FU开关" forState:(UIControlStateNormal)];
+    [fuBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    fuBtn.titleLabel.font = [UIFont systemFontOfSize:18];
+    
+    UISwitch *fuswitch = [[UISwitch alloc] initWithFrame:CGRectMake(0, 0, 28, 28)];
+    [fuswitch addTarget:self action:@selector(selectedFUChanged:) forControlEvents:(UIControlEventValueChanged)];
+    [fuswitch setOn:YES];
+    
+    self.navigationItem.leftBarButtonItems = @[[[UIBarButtonItem alloc] initWithCustomView:fuBtn],[[UIBarButtonItem alloc] initWithCustomView:fuswitch]];
+    
+    
+    // 默认YES
+    self.isuseFU = YES;
+    
     [self initData];
     [self addToolBar];
 }
@@ -88,7 +110,10 @@
 - (void)initData {
     //default params
     //默认高清 以后可根据网络状况比如wifi或4G或3G来建议用户选择不同质量
-    paraCtx = [LSVideoParaCtxConfiguration defaultVideoConfiguration:LSVideoParamQuality_Super];
+    paraCtx = [LSVideoParaCtxConfiguration defaultVideoConfiguration:LSVideoParamQuality_Super_High];
+    paraCtx.isVideoFilterOn = NO;
+    paraCtx.filterType = LS_GPUIMAGE_NORMAL;
+    paraCtx.fps = 30;
     [NEMediaCaptureEntity sharedInstance].encodeType = 2;//默认使用硬件编码
     [self reloadData];
     
@@ -97,12 +122,7 @@
     NSLog(@"timeinterval = %f",timeinterval);
     
     
-    /*
-     推流地址
-     拉流地址(HTTP)
-
-     */
-    self.urlText = @"请在后台复制填写";
+    self.urlText = @"rtmp://p99e5ad9b.live.126.net/live/66954623bb854d129afdf08d9f1b0c44?wsSecret=d125e3ded0b2274c2108be429ec6c21e&wsTime=1621317487";
     
 }
 
@@ -361,6 +381,7 @@
             [cell1.button4 setTitle:@"怀旧" forState:UIControlStateNormal];
             [@[cell1.button1, cell1.button2, cell1.button3, cell1.button4] enumerateObjectsUsingBlock:^(UIButton *btn, NSUInteger idx, BOOL * _Nonnull stop) {
                 btn.selected = NO;
+                btn.hidden = NO;
             }];
             [@[cell1.button1, cell1.button2, cell1.button3, cell1.button4] enumerateObjectsUsingBlock:^(UIButton *btn, NSUInteger idx, BOOL * _Nonnull stop) {
                 [btn addTarget:self action:@selector(filterSelectBtnTapped:) forControlEvents:UIControlEventTouchUpInside];
@@ -394,6 +415,7 @@
             [cell1.button4 setTitle:@"left" forState:UIControlStateNormal];
             [@[cell1.button1, cell1.button2, cell1.button3, cell1.button4] enumerateObjectsUsingBlock:^(UIButton *btn, NSUInteger idx, BOOL * _Nonnull stop) {
                 btn.selected = NO;
+                btn.hidden = NO;
             }];
             [@[cell1.button1, cell1.button2, cell1.button3, cell1.button4] enumerateObjectsUsingBlock:^(UIButton *btn, NSUInteger idx, BOOL * _Nonnull stop) {
                 [btn addTarget:self action:@selector(orientationChanged:) forControlEvents:UIControlEventTouchUpInside];
@@ -540,19 +562,22 @@
     }
     else {
         if (paraCtx.fps == 0) {
-            paraCtx.fps = 15;
+            paraCtx.fps = 30;
         }else if (paraCtx.fps < 10 || paraCtx.fps > 24) {
-            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示信息"
-                                                                message:@"帧率，建议在10~24之间"
-                                                               delegate:nil
-                                                      cancelButtonTitle:@"确定"
-                                                      otherButtonTitles:nil];
-            [alertView show];
-            return;
+//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示信息"
+//                                                                message:@"帧率，建议在10~24之间"
+//                                                               delegate:nil
+//                                                      cancelButtonTitle:@"确定"
+//                                                      otherButtonTitles:nil];
+//            [alertView show];
+//            return;
+            
+            paraCtx.fps = 30;
         }
         [self reloadData];
         
         MediaCaptureViewController *mediaCaptureVC = [[MediaCaptureViewController alloc] initWithUrl:self.urlText sLSctx:[NEMediaCaptureEntity sharedInstance].videoParaCtx];
+        mediaCaptureVC.isuseFU = self.isuseFU;
         mediaCaptureVC.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:mediaCaptureVC animated:YES completion:nil];
     }
@@ -589,6 +614,12 @@
     [self reloadData];
 }
 
+- (void)selectedFUChanged:(UISwitch *)sender{
+    
+    self.isuseFU = sender.isOn;
+    [self reloadData];
+    
+}
 
 - (void)qualityBtnTapped:(UIButton *)sender {
     switch (sender.tag) {

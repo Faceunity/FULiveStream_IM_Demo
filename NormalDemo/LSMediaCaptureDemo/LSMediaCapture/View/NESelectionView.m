@@ -108,8 +108,8 @@
 
 -(void)switchButtonPressed:(id)sender
 {
-    if (self.selectDelegate && [self.selectDelegate respondsToSelector:@selector(switchButtonPressed)]) {
-        [self.selectDelegate switchButtonPressed];
+    if (self.selectDelegate && [self.selectDelegate respondsToSelector:@selector(switchButtonPressed:)]) {
+        [self.selectDelegate switchButtonPressed:sender];
     }
 }
 
