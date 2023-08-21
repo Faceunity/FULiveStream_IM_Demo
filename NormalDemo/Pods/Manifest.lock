@@ -1,11 +1,11 @@
 PODS:
-  - FURenderKit (8.3.0)
+  - FURenderKit (8.7.0)
   - Masonry (1.1.0)
   - NMCLiveStreaming (3.3.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - FURenderKit (~> 8.3.0)
+  - FURenderKit (~> 8.7.0)
   - Masonry
   - NMCLiveStreaming
   - SVProgressHUD
@@ -13,17 +13,16 @@ DEPENDENCIES:
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - FURenderKit
-  trunk:
     - Masonry
     - NMCLiveStreaming
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  FURenderKit: 3cd05abd03134d287a1d63cbaaeb95d304ba6bd6
+  FURenderKit: a73f9a86fc4b2963c6c29bd58f0b42a953cf9362
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   NMCLiveStreaming: 8aecb8937a7e85f1c93fca8427fd5af61d69e9cb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 9ceea19f586275155a36844ba627c1b9b2c11fec
+PODFILE CHECKSUM: 5f8a0d3adbaa18ab6b102027b6e37768e66543a3
 
 COCOAPODS: 1.11.3

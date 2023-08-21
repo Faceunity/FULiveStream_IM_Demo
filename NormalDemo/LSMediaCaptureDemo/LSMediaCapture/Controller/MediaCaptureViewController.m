@@ -42,7 +42,6 @@
 #include <sys/stat.h>
 
 #import "FUDemoManager.h"
-#import "FUManager.h"
 #import <FURenderKit/FUCaptureCamera.h>
 
 #endif
@@ -88,7 +87,6 @@
  作为外部摄像头
  */
 @property (nonatomic, strong) FUCaptureCamera *camera;
-@property(nonatomic, strong) FUDemoManager *demoManager;
 @property(nonatomic, strong) NEAudioCapture *audioCapture;
 //直播SDK API
 @property (nonatomic,strong) LSMediaCapture *mediaCapture;
@@ -167,12 +165,8 @@
     if (self.isuseFU) {
 
         // FaceUnity UI
-        CGFloat safeAreaBottom = 0;
-        if (@available(iOS 11.0, *)) {
-            safeAreaBottom = [UIApplication sharedApplication].delegate.window.safeAreaInsets.bottom;
-        }
-        
-        self.demoManager = [[FUDemoManager alloc] initWithTargetController:self originY:CGRectGetHeight(self.view.frame) - FUBottomBarHeight - safeAreaBottom - 120];
+        [FUDemoManager setupFUSDK];
+        [[FUDemoManager shared] addDemoViewToView:self.view originY:CGRectGetHeight(self.view.frame) - FUBottomBarHeight - FUSafaAreaBottomInsets() - 120];
         
     }
     
@@ -388,13 +382,27 @@
 }
 
 //外部采集摄像头的数据塞回来给SDK推流
-- (void)didOutputVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer{
+- (void)didOutputVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer captureDevicePosition:(AVCaptureDevicePosition)position{
     //然后塞给 推流sdk
     if (self.isuseFU) {
      
         //Faceunity核心接口，将道具及美颜效果作用到图像中，执行完此函数pixelBuffer即包含美颜及贴纸效果
         CVPixelBufferRef pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer);
-        [[FUManager shareManager] renderItemsToPixelBuffer:pixelBuffer];
+        [[FUDemoManager shared] checkAITrackedResult];
+        if ([FUDemoManager shared].shouldRender) {
+            [[FUTestRecorder shareRecorder] processFrameWithLog];
+            [FUDemoManager updateBeautyBlurEffect];
+            FURenderInput *input = [[FURenderInput alloc] init];
+            input.renderConfig.imageOrientation = FUImageOrientationUP;
+            input.renderConfig.isFromFrontCamera = YES;
+            input.renderConfig.isFromMirroredCamera = YES;
+            input.pixelBuffer = pixelBuffer;
+            input.renderConfig.readBackToPixelBuffer = YES;
+            //开启重力感应，内部会自动计算正确方向，设置fuSetDefaultRotationMode，无须外面设置
+            input.renderConfig.gravityEnable = YES;
+            FURenderOutput *output = [[FURenderKit shareRenderKit] renderWithInput:input];
+        }
+        
     }
     [self.mediaCapture externalInputSampleBuffer:sampleBuffer];
 }
@@ -961,7 +969,7 @@
     
     if (self.isuseFU) {
         
-        [[FUManager shareManager] destoryItems];
+        [FUDemoManager destory];
     }
     
     #endif
@@ -991,7 +999,7 @@
 #ifdef KFaceUOn
                                 if (weakSelf.isuseFU) {
                                     
-                                    [[FUManager shareManager] destoryItems];
+                                    [FUDemoManager destory];
                                 }
 #endif
                             }];
@@ -1005,7 +1013,7 @@
 #ifdef KFaceUOn
                             if (weakSelf.isuseFU) {
                                 
-                                [[FUManager shareManager] destoryItems];
+                                [FUDemoManager destory];
                             }
 #endif
                         }];
@@ -1159,8 +1167,7 @@
         
         [_camera changeCameraInputDeviceisFront:sender.selected];
         sender.selected = !sender.selected;
-        [[FUManager shareManager] onCameraChange];
-        [FUManager shareManager].flipx = ![FUManager shareManager].flipx;
+        [FUDemoManager resetTrackedResult];
     }
     
 #endif
