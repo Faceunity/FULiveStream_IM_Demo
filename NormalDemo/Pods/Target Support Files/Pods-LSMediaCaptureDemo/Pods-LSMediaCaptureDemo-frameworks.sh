@@ -176,12 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/FURenderKit/FURenderKit-v8.3.0/FURenderKit.framework"
+  install_framework "${PODS_ROOT}/FURenderKit/FURenderKit.framework"
   install_framework "${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCBasicModuleFramework.framework"
   install_framework "${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCLiveStreaming.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/FURenderKit/FURenderKit-v8.3.0/FURenderKit.framework"
+  install_framework "${PODS_ROOT}/FURenderKit/FURenderKit.framework"
   install_framework "${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCBasicModuleFramework.framework"
   install_framework "${PODS_ROOT}/NMCLiveStreaming/NormalSDK/NMCLiveStreaming.framework"
 fi

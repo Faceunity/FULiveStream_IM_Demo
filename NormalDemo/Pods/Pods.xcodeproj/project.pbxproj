@@ -28,67 +28,67 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D417C13F0239842BBCEDF8A56DB6FEEA /* MASViewConstraint.m */; };
-		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCA071096C4DC35A292577B9B405CFA /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		023A31F09752D35AF7D32E70DCAAD213 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBBC33351CFC094E7A9FC71C1D4DD50 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		068D3243185C7989D7C52BE14E8C5771 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A846C3C0236C4CE68878D3BFA2C7F697 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 060170161977086843DE65E5ABF13930 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D1A7CD4AC895708E4AF4E83BB6EAE /* MASLayoutConstraint.m */; };
-		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2701378E10A6016BE7423630433E985E /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FADB5A9CBC42CA6836DF47E9C488BA11 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FB87525D099E0413DFE071898DE2F600 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CCDCD0D2FAFB57833669F5BDE6BDD1 /* MASConstraintMaker.m */; };
-		5C1AF20AE64512E795A325C0AA7B3330 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61302F4806C8D44D2758EA84AA5CFB9E /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 877CE7F5F5E75FCF3E200EF869CD3CEA /* NSArray+MASAdditions.m */; };
-		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FD257D64E6C25E4A6015BF53B7E832 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A30B5A480DDAF80937621F9739F41A /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 542686F9A088678C3179271E6DCD7783 /* MASViewAttribute.m */; };
-		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 153DE3870B1EFC48FAD1A3E5466E86C3 /* MASCompositeConstraint.m */; };
-		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB4E4C654E8943ED01C69FBFB3359F2 /* Masonry-dummy.m */; };
-		8F96EAB04C7156B2B2A007A6D6D6660A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AE712936750077C90CAF5F465524F /* SVRadialGradientLayer.m */; };
-		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D0D78A7636F075D1F02BC9336F34FA /* View+MASAdditions.m */; };
-		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CA55C955AB3CC549CCF0099107707C3A /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9C6EBD514B17BC504502277339AC30 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C131D6D67F6BCEBE657BF16126A4E057 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE989A06C9D1B9A65E913C6ACDFC0F /* SVProgressHUD.m */; };
-		C6F9A06F7931E3609EBD6E67DF45A7CE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB2C7FDF953A5962191D1D6041DD43 /* SVProgressAnimatedView.m */; };
-		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CC033AAE707F3C55B61663DB546366 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B8BB62951E9D663301DE9DB491BE54 /* MASConstraint.m */; };
-		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C210FB40ECD3B05D798C515949306D /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E4B130AD08757D4666A6425413F78232 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C31E1BA573856929186B93A08F2B20C3 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5863162E72E811C9AE254DE0B987AA4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A75E08C1A84A6354C9141D3EA0079C /* SVIndefiniteAnimatedView.m */; };
+		011DEAEC47C5802504A51B75A1AC15D9 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A287C5C7D64400D0E9D61BB0BA06732 /* MASViewConstraint.m */; };
+		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D865F7A990221179106F2447239FAF6 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		023A31F09752D35AF7D32E70DCAAD213 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0B1500FACBCBBCBF4EEE6CA021C21 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		068D3243185C7989D7C52BE14E8C5771 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB64E3F327F6AC77B1F1F82BE1A3F23 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 326AD7157E11AED34D868778AEE15520 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF5B77E02896B891056DF0B7B7BC6CA /* MASLayoutConstraint.m */; };
+		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D244FEC6918ECEDD2DDE0E68A0BA235D /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE24BBCD9DA0943F755D5368D6E0AED /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C49431EFBDFC4BC6B4F43A4C327A719 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA97A990913D390D290B530D6EBD79D /* MASConstraintMaker.m */; };
+		5C1AF20AE64512E795A325C0AA7B3330 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCC29DBC5E91C03DB9128F09A95AE5A /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B8D43F515FD2586562D3985584F32F /* NSArray+MASAdditions.m */; };
+		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 76BEE92094864AED7B5FEC49B10247AE /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB15EDEB61C6CEEA5B7284481A7CCD0 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		843A14508DBBE2100B31FDBA28A0A06C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A18747DD0E2D6B807B01BCAB72610A /* MASViewAttribute.m */; };
+		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E76D0D350B177EA7652AAFDD9F01C8D /* MASCompositeConstraint.m */; };
+		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FCB42BBB48D9A80C3391FE55F37486 /* Masonry-dummy.m */; };
+		8F96EAB04C7156B2B2A007A6D6D6660A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073E23482570C39963A8E55689BA2D4 /* SVRadialGradientLayer.m */; };
+		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEAA26E37A854CA9EFF59216CA83630 /* View+MASAdditions.m */; };
+		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A52AB1E82031A6EDE84E68F48FAC8F8A /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21793BE8955F2E6CA23CC119247A03A7 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C131D6D67F6BCEBE657BF16126A4E057 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4082B0B780C998C66CF16F24C3E84B /* SVProgressHUD.m */; };
+		C6F9A06F7931E3609EBD6E67DF45A7CE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD94BE0F4536710E0DF4AFE871E67ADF /* SVProgressAnimatedView.m */; };
+		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D33BA82A6587FA09A6B6783FDAEC3025 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9931EAFA95989D14E9504DD530CD4E /* MASConstraint.m */; };
+		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = A1189F94DB24F916A22A2FD7686E2674 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7011D2E63B9BFF11E0C4D6BFF1D992 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C2DE442DD49DBF4F57EC0C0B35D585 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5863162E72E811C9AE254DE0B987AA4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F667047B6EE3E8925EBBDD65C511351 /* SVIndefiniteAnimatedView.m */; };
 		D74872A6EF5CCBF8ACDE502E6CD4F1A3 /* Pods-LSMediaCaptureDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5125DC0ADB7F680B05338C910E356D /* Pods-LSMediaCaptureDemo-dummy.m */; };
-		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4AFB1E494535A1D9E59A242196028E /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA63562A50DD02C4DBCCFA99AB0E7FB3 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5767E69E8EFEE295E59549BD7502236 /* SVProgressHUD-dummy.m */; };
-		EBE1C22F1C30390AB8456D300EE853B7 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6051CA27D2A1C4B7CA08724A744DF9C /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC0A756E8B760030C86FAA076A5D19C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6618FF34A5CF7B0B873743D7F784C3E4 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0063F05E493CEFA2671EA6227676C /* ViewController+MASAdditions.m */; };
+		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C986EED061956AE2F914BDB18DB05A /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA63562A50DD02C4DBCCFA99AB0E7FB3 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E01FBFA8152082F189130E02CA63B4 /* SVProgressHUD-dummy.m */; };
+		EBE1C22F1C30390AB8456D300EE853B7 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 123BDDF664DFE98B4A66C7F3ABB7A3E8 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9A0DFD2B2D56146BF9151645EF7938 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2F5868775FBB80D5162A9CA9F1A263 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C5469F4CD906911611DF6B2697A85 /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		060206B03EB43B5A58D130682E33D291 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7396CCEA2B062951F0F31B5654854F80;
-			remoteInfo = FURenderKit;
-		};
-		64BD84A13EF14094863679757730D419 /* PBXContainerItemProxy */ = {
+		83887BFC3D5EA0E7AB97F39EB95F5C7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 989226837DA4E889BEC0EA512953E76C;
 			remoteInfo = NMCLiveStreaming;
 		};
-		DF06C7F788A85FDF0F8BB49A7E5F030F /* PBXContainerItemProxy */ = {
+		A2F88238D78E3AA26A23532DEC17A830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7396CCEA2B062951F0F31B5654854F80;
+			remoteInfo = FURenderKit;
+		};
+		A8B404DED07E154B4345A024B12B71DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		FCC446EEE6AE96CAB5F6436BA18584EC /* PBXContainerItemProxy */ = {
+		C7BBE31B2918290C4D43656994E26D4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -98,151 +98,152 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001EBD7BFFD6A1F70B25D9912BBE819A /* NMCBasicModuleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMCBasicModuleFramework.framework; path = NormalSDK/NMCBasicModuleFramework.framework; sourceTree = "<group>"; };
-		05AB60250F9B338DF4ABED3D45788A14 /* FUBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBackground.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBackground.h"; sourceTree = "<group>"; };
-		060170161977086843DE65E5ABF13930 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		06C654F9BA2D590C354E77BA3576DE92 /* NMCLiveStreaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMCLiveStreaming.framework; path = NormalSDK/NMCLiveStreaming.framework; sourceTree = "<group>"; };
-		080F13DE59B2E989B21085EEA346E208 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		0813D9BAC0C1E89ADE2AAC08A7C557C9 /* UIDevice+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+FURenderKit.h"; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/UIDevice+FURenderKit.h"; sourceTree = "<group>"; };
-		0940DF4788465B14718B12AC7BFF91F4 /* FUAvatarMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarMakeup.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAvatarMakeup.h"; sourceTree = "<group>"; };
-		0AA5D41246C4CF83D4FBFE717AF9D476 /* FUMusicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMusicFilter.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMusicFilter.h"; sourceTree = "<group>"; };
-		0D6BA331CF0CCA179333E3BFF94BDDB4 /* FUKeysDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUKeysDefine.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUKeysDefine.h"; sourceTree = "<group>"; };
-		0DCF951BF530CFCA266C948E1DE4A09B /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUImageHelper.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUImageHelper.h"; sourceTree = "<group>"; };
-		10E75DE3842C477DD5A4ADA947349174 /* FUAIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAIConfig.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAIConfig.h"; sourceTree = "<group>"; };
-		11ED6510214DE9239387EA751E216F8B /* ai_bgseg_green.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_bgseg_green.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_bgseg_green.bundle"; sourceTree = "<group>"; };
-		153DE3870B1EFC48FAD1A3E5466E86C3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		1711F8418D6E0B8E0027617E748A6EA0 /* FUEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUEnum.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUEnum.h"; sourceTree = "<group>"; };
-		19561A3A4FED43753B3EA9EA62924BD0 /* FUGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGLContext.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUGLContext.h"; sourceTree = "<group>"; };
-		1B36580769714FEB1606C95FEE548191 /* FUFacepupKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFacepupKeys.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUFacepupKeys.h"; sourceTree = "<group>"; };
-		1CD0063F05E493CEFA2671EA6227676C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		1E02B5FBA061AFCFF1FFA2657651659A /* FUStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUStruct.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUStruct.h"; sourceTree = "<group>"; };
+		01F6A2D678BDDE79686A3B2F2C78E17C /* FUCaptureCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCaptureCamera.h; path = FURenderKit.framework/Headers/FUCaptureCamera.h; sourceTree = "<group>"; };
+		04435A51454B2082257AF9E33E332DD0 /* FUGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGLContext.h; path = FURenderKit.framework/Headers/FUGLContext.h; sourceTree = "<group>"; };
+		07B201045BC7462A088F0AF53F7FF384 /* FUGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGesture.h; path = FURenderKit.framework/Headers/FUGesture.h; sourceTree = "<group>"; };
+		0DB4656F82542674221C740F6A465062 /* FULightMakeUpTextureKeyDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULightMakeUpTextureKeyDefineKey.h; path = FURenderKit.framework/Headers/FULightMakeUpTextureKeyDefineKey.h; sourceTree = "<group>"; };
+		11652B04DB0C7A2191D2E702C83D2F62 /* ai_human_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_human_processor.bundle; path = Resources/model/ai_human_processor.bundle; sourceTree = "<group>"; };
+		11C2DE442DD49DBF4F57EC0C0B35D585 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		123BDDF664DFE98B4A66C7F3ABB7A3E8 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		128B353B3F705874A5CFBE1F48CD3532 /* FUMakeUpColorsKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpColorsKey.h; path = FURenderKit.framework/Headers/FUMakeUpColorsKey.h; sourceTree = "<group>"; };
+		13F606F106B36916B7ABDB890BF75440 /* fxaa.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = fxaa.bundle; path = Resources/graphics/fxaa.bundle; sourceTree = "<group>"; };
+		1582CCB157BE39A115DEBD2284C16B9A /* FUGroupAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGroupAnimation.h; path = FURenderKit.framework/Headers/FUGroupAnimation.h; sourceTree = "<group>"; };
+		1776E5AFC16DC7B180729C5EE701E525 /* FUStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUStruct.h; path = FURenderKit.framework/Headers/FUStruct.h; sourceTree = "<group>"; };
+		18544E974D26F6334D5616227BE564AF /* FUVideoWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUVideoWriter.h; path = FURenderKit.framework/Headers/FUVideoWriter.h; sourceTree = "<group>"; };
+		19EF7F7F2D2F0849146CF446B7C0322D /* controller_cpp.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = controller_cpp.bundle; path = Resources/graphics/controller_cpp.bundle; sourceTree = "<group>"; };
+		1CD50F517ABAC92B11019CB555D115D1 /* FUSetupConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSetupConfig.h; path = FURenderKit.framework/Headers/FUSetupConfig.h; sourceTree = "<group>"; };
+		1EAF633B7870E22FCE7E5EBADDD230B2 /* face_beautification.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = face_beautification.bundle; path = Resources/graphics/face_beautification.bundle; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Masonry; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		24EB0B54CB7CB2ADF4ED7747AE279016 /* UIImage+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FURenderKit.h"; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/UIImage+FURenderKit.h"; sourceTree = "<group>"; };
-		2701378E10A6016BE7423630433E985E /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		284F5750FCE33E3B9688085B2A11D40C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		2041B8289CE01C9BC99657C8026B3F51 /* FURenderIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderIO.h; path = FURenderKit.framework/Headers/FURenderIO.h; sourceTree = "<group>"; };
+		21793BE8955F2E6CA23CC119247A03A7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		232F67F5AC8952E24A91352AAF838739 /* FUBeautyPropertyModeDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBeautyPropertyModeDefine.h; path = FURenderKit.framework/Headers/FUBeautyPropertyModeDefine.h; sourceTree = "<group>"; };
+		23FFBEBA734CD376281E315720AE17F3 /* FUMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeup.h; path = FURenderKit.framework/Headers/FUMakeup.h; sourceTree = "<group>"; };
+		2603ABB3DC55A87051638AEB944A431C /* FUAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatar.h; path = FURenderKit.framework/Headers/FUAvatar.h; sourceTree = "<group>"; };
+		26409DE90A4E085BB3F8ED92091A02A0 /* FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderKit.h; path = FURenderKit.framework/Headers/FURenderKit.h; sourceTree = "<group>"; };
+		287467A701E1838FD8BD63A578FF4E2C /* FUMakeUpTextureKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpTextureKey.h; path = FURenderKit.framework/Headers/FUMakeUpTextureKey.h; sourceTree = "<group>"; };
+		2A1F22228E49F107A4BEDC69734002A8 /* FURenderKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FURenderKit.release.xcconfig; sourceTree = "<group>"; };
+		2A22A16DD2D2030118A9BD84E02B5FB8 /* FUGLDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGLDisplayView.h; path = FURenderKit.framework/Headers/FUGLDisplayView.h; sourceTree = "<group>"; };
 		2B5125DC0ADB7F680B05338C910E356D /* Pods-LSMediaCaptureDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LSMediaCaptureDemo-dummy.m"; sourceTree = "<group>"; };
-		2CB419E29CCCEC2CE412AD74F574A6C8 /* ai_face_processor_lite.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_face_processor_lite.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_face_processor_lite.bundle"; sourceTree = "<group>"; };
-		2E2AAD3E702FF1261C474B980D7868CD /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		3B4D8D94CA7A4F1EC694EABC793025DD /* ai_human_processor_gpu.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_human_processor_gpu.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_human_processor_gpu.bundle"; sourceTree = "<group>"; };
-		3BA6E1E308F6F4873AAB9F5B9F65F8A9 /* fxaa.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = fxaa.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/fxaa.bundle"; sourceTree = "<group>"; };
+		2CA4373044FD44A5258ED9B5BBD15714 /* FUConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUConfig.h; path = FURenderKit.framework/Headers/FUConfig.h; sourceTree = "<group>"; };
+		2DE33184F88425AA22067C5B6B25402B /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NMCVideoFilter.bundle; path = NormalSDK/NMCVideoFilter.bundle; sourceTree = "<group>"; };
+		2EEAA26E37A854CA9EFF59216CA83630 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		309CBCE8F5AAC20090B8B6AD5F8961C7 /* FURenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderer.h; path = FURenderKit.framework/Headers/FURenderer.h; sourceTree = "<group>"; };
+		30A820897CACC9751D2E5CC2B0328CE6 /* face_makeup.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = face_makeup.bundle; path = Resources/graphics/face_makeup.bundle; sourceTree = "<group>"; };
+		320F580C2E9F95B5AF50720B434A1AC5 /* FUHairDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHairDefineKey.h; path = FURenderKit.framework/Headers/FUHairDefineKey.h; sourceTree = "<group>"; };
+		326AD7157E11AED34D868778AEE15520 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		36E01FBFA8152082F189130E02CA63B4 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		3A21777862CBA684EE642EC78DEE0B76 /* FUMakeUpChildStrengthDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpChildStrengthDefineKey.h; path = FURenderKit.framework/Headers/FUMakeUpChildStrengthDefineKey.h; sourceTree = "<group>"; };
+		3A5E99036F6C0D626DA1745CC80D4336 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		3AB94596B0EBB45881A8CCEF2C9FD67D /* FUMusicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMusicFilter.h; path = FURenderKit.framework/Headers/FUMusicFilter.h; sourceTree = "<group>"; };
 		3BFB70DED5B4F7FAE782CB26003D0EA2 /* Pods-LSMediaCaptureDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LSMediaCaptureDemo"; path = "libPods-LSMediaCaptureDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCA071096C4DC35A292577B9B405CFA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		3F043568C6B922AE9BA2E2FED343D1D5 /* FUHairDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHairDefineKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUHairDefineKey.h"; sourceTree = "<group>"; };
-		3F5A6D39AB99E40046CD539F602101C7 /* controller_cpp.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = controller_cpp.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/controller_cpp.bundle"; sourceTree = "<group>"; };
-		42B4906992371404A2530A733C4DB1DD /* FUQualitySticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUQualitySticker.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUQualitySticker.h"; sourceTree = "<group>"; };
-		42FD257D64E6C25E4A6015BF53B7E832 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		4327B35546AF81A827C58C1613ED4DC0 /* FUOvonicMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUOvonicMap.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUOvonicMap.h"; sourceTree = "<group>"; };
-		474007E77C5E3E445CF5250D34BE7568 /* FUMakeUpTextureKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpTextureKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMakeUpTextureKey.h"; sourceTree = "<group>"; };
-		493FFFE8A2BC3F668BFEE29B644BFAAB /* FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderKit.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURenderKit.h"; sourceTree = "<group>"; };
-		4A81704DEBE676BCE1A8E6C0CA56E181 /* FUCLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCLIColor.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUCLIColor.h"; sourceTree = "<group>"; };
-		4C517D26239D23C0CE54B23487DDAEB5 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		4F57B99F72FF2D119FFBABC0FEA9C233 /* FUMakeUpChildStrengthDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpChildStrengthDefineKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMakeUpChildStrengthDefineKey.h"; sourceTree = "<group>"; };
-		4FC0A756E8B760030C86FAA076A5D19C /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		5137569416B1FDB693AB1515AB681808 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		52C56BB56B62B693AE9B511B0D9EC027 /* FURenderableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderableObject.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURenderableObject.h"; sourceTree = "<group>"; };
-		5398C8C5E01417BF7966A376BEFE88C3 /* FURecordEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURecordEncoder.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURecordEncoder.h"; sourceTree = "<group>"; };
-		542686F9A088678C3179271E6DCD7783 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		549558EE9C79E0D2CEE40FB9E8D2F0AA /* FUSceneCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSceneCamera.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUSceneCamera.h"; sourceTree = "<group>"; };
-		54B5DD5E013CEA188AEB1651EE31B0FC /* FUBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBeauty.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBeauty.h"; sourceTree = "<group>"; };
-		54BB780AC69640CA6EEC687E9A01BCEB /* FUStickerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUStickerContainer.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUStickerContainer.h"; sourceTree = "<group>"; };
-		54D0D78A7636F075D1F02BC9336F34FA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		562AAE9EE3CF57B755C7C7BA9034295E /* FURenderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FURenderKit.framework; path = "FURenderKit-v8.3.0/FURenderKit.framework"; sourceTree = "<group>"; };
+		3D865F7A990221179106F2447239FAF6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4074A6DD21AE113B15AEC0EC490B904A /* NMCBasicModuleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMCBasicModuleFramework.framework; path = NormalSDK/NMCBasicModuleFramework.framework; sourceTree = "<group>"; };
+		417FAFC17A65415427C74DEA30D79A4B /* FURenderKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FURenderKit-umbrella.h"; path = "FURenderKit.framework/Headers/FURenderKit-umbrella.h"; sourceTree = "<group>"; };
+		4348D735B8B806FA8A21C11FB8D07852 /* FUItem+createTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FUItem+createTexture.h"; path = "FURenderKit.framework/Headers/FUItem+createTexture.h"; sourceTree = "<group>"; };
+		464C1E3C61C1167CECF1C7160CD4CC0D /* FUFacepupKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFacepupKeys.h; path = FURenderKit.framework/Headers/FUFacepupKeys.h; sourceTree = "<group>"; };
+		479503CACA938E3C892439CEE2D9135B /* FUAvatarMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarMakeup.h; path = FURenderKit.framework/Headers/FUAvatarMakeup.h; sourceTree = "<group>"; };
+		4DC08AF6D93562A51D05727DE62326A7 /* FUMakeupValueDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeupValueDefine.h; path = FURenderKit.framework/Headers/FUMakeupValueDefine.h; sourceTree = "<group>"; };
+		4E4082B0B780C998C66CF16F24C3E84B /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		5073E23482570C39963A8E55689BA2D4 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		514BB6CC9163D436B546317238A39F16 /* FUAIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAIConfig.h; path = FURenderKit.framework/Headers/FUAIConfig.h; sourceTree = "<group>"; };
+		56FCB42BBB48D9A80C3391FE55F37486 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		584D4E6D0E1FE6E6396C59A7E806C1E1 /* Pods-LSMediaCaptureDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSMediaCaptureDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5B7A0003E8E9B720CCF386F3C3C3C06A /* FUSetupConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSetupConfig.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUSetupConfig.h"; sourceTree = "<group>"; };
-		5E4C02EFC5C27689489F9F3AFE58F58F /* FUHairBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHairBeauty.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUHairBeauty.h"; sourceTree = "<group>"; };
-		5EE2B1A82DE72EC51487601C4F0933E5 /* FURenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderer.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURenderer.h"; sourceTree = "<group>"; };
-		5F1AE712936750077C90CAF5F465524F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		5F2341E3B58DC20FF94FEB44293AAF47 /* FULightMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULightMakeup.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FULightMakeup.h"; sourceTree = "<group>"; };
-		60C2527ADAC853BAC187599FBB2E2755 /* FULightMakeUpTextureKeyDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULightMakeUpTextureKeyDefineKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FULightMakeUpTextureKeyDefineKey.h"; sourceTree = "<group>"; };
-		61302F4806C8D44D2758EA84AA5CFB9E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		62EA5DFE2CB4270EB5C9A7A42661A611 /* FUGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGesture.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUGesture.h"; sourceTree = "<group>"; };
-		6482160759D517DADA9147EEF457CE93 /* FUNormalConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUNormalConfig.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUNormalConfig.h"; sourceTree = "<group>"; };
-		6618FF34A5CF7B0B873743D7F784C3E4 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		663E0A206F7FFF27C084C22E43249102 /* body_slim.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = body_slim.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/body_slim.bundle"; sourceTree = "<group>"; };
-		6CBCF2C0790D4FFD93CB0D684560B065 /* FUInternalCameraSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUInternalCameraSetting.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUInternalCameraSetting.h"; sourceTree = "<group>"; };
-		6E5C05DF86E27CAAAB0D7E45CB20F176 /* ai_human_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_human_processor.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_human_processor.bundle"; sourceTree = "<group>"; };
-		6EC8312D7C4D97E6915CA19BDE53F65F /* FUDeformationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDeformationKeys.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUDeformationKeys.h"; sourceTree = "<group>"; };
-		6EF5997D35333A49F454383309B19AEB /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NMCVideoFilter.bundle; path = NormalSDK/NMCVideoFilter.bundle; sourceTree = "<group>"; };
-		7103DE1FF654FB8C22A1A4B9053024F3 /* FULight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULight.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FULight.h"; sourceTree = "<group>"; };
-		712E500371C1F5ED24E2975038997F6A /* FURenderKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FURenderKit.release.xcconfig; sourceTree = "<group>"; };
+		58C8DEBF0934B248F3F9532D4F1F7D33 /* FUPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUPoster.h; path = FURenderKit.framework/Headers/FUPoster.h; sourceTree = "<group>"; };
+		5946349A40CEE0EE148BC7DCF385A290 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		5A84110FFF2C0E6F9488BCBE514115A6 /* FUSceneCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSceneCamera.h; path = FURenderKit.framework/Headers/FUSceneCamera.h; sourceTree = "<group>"; };
+		5B9931EAFA95989D14E9504DD530CD4E /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		5BB15EDEB61C6CEEA5B7284481A7CCD0 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		5C54446E03FA35E6134FAF295F98F058 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		5CB5E59C2E3A219511E649517F8A57A0 /* FUAIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAIKit.h; path = FURenderKit.framework/Headers/FUAIKit.h; sourceTree = "<group>"; };
+		5EEA6387B5698050B00376F4E9EDD862 /* FUFilterDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFilterDefineKey.h; path = FURenderKit.framework/Headers/FUFilterDefineKey.h; sourceTree = "<group>"; };
+		5FE24BBCD9DA0943F755D5368D6E0AED /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		612FD65C85055A20BA16F78EF2BD495F /* FUCustomBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCustomBackground.h; path = FURenderKit.framework/Headers/FUCustomBackground.h; sourceTree = "<group>"; };
+		63B8D43F515FD2586562D3985584F32F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		65071481AC683EFCF4284F4751BE1B9B /* ai_hand_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_hand_processor.bundle; path = Resources/model/ai_hand_processor.bundle; sourceTree = "<group>"; };
+		65A0DFDBFA445D969A6AC3A81A87AC2D /* FUQualitySticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUQualitySticker.h; path = FURenderKit.framework/Headers/FUQualitySticker.h; sourceTree = "<group>"; };
+		683F22CA336009EA7FE00F9BEE91A814 /* FUBodyBeautyDefineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBodyBeautyDefineKeys.h; path = FURenderKit.framework/Headers/FUBodyBeautyDefineKeys.h; sourceTree = "<group>"; };
+		68D769C585857793681B1CE18E9D335F /* FUParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUParam.h; path = FURenderKit.framework/Headers/FUParam.h; sourceTree = "<group>"; };
+		6C1050A6DAE7864527020CA1BAAE1B35 /* FUAvatarColorKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarColorKeys.h; path = FURenderKit.framework/Headers/FUAvatarColorKeys.h; sourceTree = "<group>"; };
+		6C49431EFBDFC4BC6B4F43A4C327A719 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6CB61B1A38C0DB2C7031CA12378DF7D6 /* UIDevice+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+FURenderKit.h"; path = "FURenderKit.framework/Headers/UIDevice+FURenderKit.h"; sourceTree = "<group>"; };
+		6E65830A957FC042D7A14F2CC0FD1C78 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		6E76D0D350B177EA7652AAFDD9F01C8D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		70E2C1BBFBDD50BCD637E083AAC92155 /* FULightMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULightMakeup.h; path = FURenderKit.framework/Headers/FULightMakeup.h; sourceTree = "<group>"; };
+		710E445E8D8360FCCC011B8E45EDF6C8 /* body_slim.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = body_slim.bundle; path = Resources/graphics/body_slim.bundle; sourceTree = "<group>"; };
 		719493AF5AFD941EFCDD79B7CE574449 /* Pods-LSMediaCaptureDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LSMediaCaptureDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		728AA06F0C670D6551FE3AA45260BE44 /* FUItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUItem.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUItem.h"; sourceTree = "<group>"; };
-		75A75E08C1A84A6354C9141D3EA0079C /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		76F6B24451FD12C565218B82DC8F6B72 /* FUAISegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAISegment.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAISegment.h"; sourceTree = "<group>"; };
-		79B8229D77841B59CFC6E91CFC53BC16 /* ai_face_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_face_processor.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_face_processor.bundle"; sourceTree = "<group>"; };
+		72C768557108FBB8ED3FB10967970E32 /* FUDeformationKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUDeformationKeys.h; path = FURenderKit.framework/Headers/FUDeformationKeys.h; sourceTree = "<group>"; };
+		7433B3C266CFCC665FA7AD561C39FD7E /* FURenderableObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderableObject.h; path = FURenderKit.framework/Headers/FURenderableObject.h; sourceTree = "<group>"; };
+		747BBB83FC81018CA42FEDB491949955 /* FUVideoSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUVideoSettings.h; path = FURenderKit.framework/Headers/FUVideoSettings.h; sourceTree = "<group>"; };
+		7581C4E213E6497DAA77DF334D39396A /* FUAISegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAISegment.h; path = FURenderKit.framework/Headers/FUAISegment.h; sourceTree = "<group>"; };
+		76BEE92094864AED7B5FEC49B10247AE /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		7700417A70361019E56F097E83D3D723 /* FUCameraAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCameraAnimation.h; path = FURenderKit.framework/Headers/FUCameraAnimation.h; sourceTree = "<group>"; };
+		7ACE4C93C0C75B097B4DAA3E9AC4E439 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		7C3E8BF15053F265C93F0C6928FEA7D2 /* UIImage+FURenderKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FURenderKit.h"; path = "FURenderKit.framework/Headers/UIImage+FURenderKit.h"; sourceTree = "<group>"; };
+		7D3391854C6D704EF14B7F113A34F4CB /* FUBeauty-Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FUBeauty-Deprecated.h"; path = "FURenderKit.framework/Headers/FUBeauty-Deprecated.h"; sourceTree = "<group>"; };
+		7D9A0DFD2B2D56146BF9151645EF7938 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		7EB64E3F327F6AC77B1F1F82BE1A3F23 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		7F667047B6EE3E8925EBBDD65C511351 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		7F8AD6F87210103F9EC0859D1613FE19 /* Pods-LSMediaCaptureDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSMediaCaptureDemo-resources.sh"; sourceTree = "<group>"; };
-		807E0E360B7EC07D8023A1279CDB93BD /* tongue.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = tongue.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/tongue.bundle"; sourceTree = "<group>"; };
-		82E1B455AFBDF8D7EDBF721EDCFDF897 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/metamacros.h"; sourceTree = "<group>"; };
-		830D1A7CD4AC895708E4AF4E83BB6EAE /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		831517284D38068F7A3548FFB390A4C6 /* FUAIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAIKit.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAIKit.h"; sourceTree = "<group>"; };
-		877CE7F5F5E75FCF3E200EF869CD3CEA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		878AFDF52BDA3564D4E43CE401CA0617 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		8A9C6EBD514B17BC504502277339AC30 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8C4AFB1E494535A1D9E59A242196028E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		91CC033AAE707F3C55B61663DB546366 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		93D203E978DB00F094F59930EE0423EF /* FUScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUScene.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUScene.h"; sourceTree = "<group>"; };
-		98940859C9E871564E445D6B55892A3D /* FUActionRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUActionRecognition.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUActionRecognition.h"; sourceTree = "<group>"; };
-		9C1A5180379B9CFD8F62900F2B8974B0 /* FUCameraAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCameraAnimation.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUCameraAnimation.h"; sourceTree = "<group>"; };
+		81F55B36FED511DAD10216A380E2D127 /* FUAvatarCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarCheck.h; path = FURenderKit.framework/Headers/FUAvatarCheck.h; sourceTree = "<group>"; };
+		8DC3348F025E7346EEA29CD49DB0AB89 /* FUComicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUComicFilter.h; path = FURenderKit.framework/Headers/FUComicFilter.h; sourceTree = "<group>"; };
+		8F768D18B91FE5ADF55C2FB3E2977337 /* tongue.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = tongue.bundle; path = Resources/graphics/tongue.bundle; sourceTree = "<group>"; };
+		8FD464A05073ABA2749B9AB47919D430 /* FUAnimoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAnimoji.h; path = FURenderKit.framework/Headers/FUAnimoji.h; sourceTree = "<group>"; };
+		9025F7D3C1C0AA1DA6EE83D349A689C9 /* FUScene.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUScene.h; path = FURenderKit.framework/Headers/FUScene.h; sourceTree = "<group>"; };
+		96B03A91EFC58862310DB3F2F72DE840 /* FULight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FULight.h; path = FURenderKit.framework/Headers/FULight.h; sourceTree = "<group>"; };
+		982C6895983096661F3770422A6EC8D3 /* FUCLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCLIColor.h; path = FURenderKit.framework/Headers/FUCLIColor.h; sourceTree = "<group>"; };
+		987A19FAFA2AA00153E8D05E74BE910D /* fuzzytoonfilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = fuzzytoonfilter.bundle; path = Resources/graphics/fuzzytoonfilter.bundle; sourceTree = "<group>"; };
+		9A287C5C7D64400D0E9D61BB0BA06732 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		9C445617F42EA7EEFCC620C228BF5F9F /* FUFacialFeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFacialFeatures.h; path = FURenderKit.framework/Headers/FUFacialFeatures.h; sourceTree = "<group>"; };
+		9CA97A990913D390D290B530D6EBD79D /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		9D3414000AD591BDB2B0700DB56EBF8C /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = FURenderKit.framework/Headers/metamacros.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB4E4C654E8943ED01C69FBFB3359F2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		9F35EB139A18060E63B6A95222511282 /* FURenderIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FURenderIO.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURenderIO.h"; sourceTree = "<group>"; };
-		9F493836700346BD5DA348A08F2E0C33 /* ai_face_recognizer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_face_recognizer.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_face_recognizer.bundle"; sourceTree = "<group>"; };
+		9DD2972DD12ED057D27B4A5DFE5361D1 /* FUBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBeauty.h; path = FURenderKit.framework/Headers/FUBeauty.h; sourceTree = "<group>"; };
+		9EF5B77E02896B891056DF0B7B7BC6CA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A1189F94DB24F916A22A2FD7686E2674 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		A1C2B08E8FDA44D662D3118967FFBAAA /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		A1D29E69E6F7AE02CE2664D05136EB6B /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		A25E47DDDA5E9B01FF9D31B3D82BD948 /* Pods-LSMediaCaptureDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LSMediaCaptureDemo-frameworks.sh"; sourceTree = "<group>"; };
-		A2C210FB40ECD3B05D798C515949306D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		A4AA8CFFFF36B1DA8D69F79CE118AE37 /* FUGLDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGLDisplayView.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUGLDisplayView.h"; sourceTree = "<group>"; };
-		A4FF0D3D52DF11733628A7EE933663B2 /* FUFacialFeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFacialFeatures.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUFacialFeatures.h"; sourceTree = "<group>"; };
-		A6CB2C7FDF953A5962191D1D6041DD43 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		A7B8BB62951E9D663301DE9DB491BE54 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A846C3C0236C4CE68878D3BFA2C7F697 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		A9B79DD7C8DCD9C7967A937BD6839917 /* FUMakeup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeup.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMakeup.h"; sourceTree = "<group>"; };
-		A9F4E303E7B526E5ED78CE4C450D943E /* NMCLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMCLiveStreaming.release.xcconfig; sourceTree = "<group>"; };
-		AD2EC1B99DD8265F67BCACAD4EF02596 /* FUCustomBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCustomBackground.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUCustomBackground.h"; sourceTree = "<group>"; };
-		AE2EFE7E0C226A7E748C6A6466217B3F /* NMCLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMCLiveStreaming.debug.xcconfig; sourceTree = "<group>"; };
-		AE46EC235D96311A23AEEF1ADC2AEEAF /* face_makeup.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = face_makeup.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/face_makeup.bundle"; sourceTree = "<group>"; };
-		B0266B3065E338E5B9026B1383EF0A18 /* FUAvatarCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarCheck.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAvatarCheck.h"; sourceTree = "<group>"; };
-		B20CB8221AB6C30C932469EEA76B95A4 /* CNamaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNamaSDK.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/CNamaSDK.h"; sourceTree = "<group>"; };
-		B4AE989A06C9D1B9A65E913C6ACDFC0F /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		B7035B571E356B217261FFB7BF216FD5 /* FUBodyBeautyDefineKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBodyBeautyDefineKeys.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBodyBeautyDefineKeys.h"; sourceTree = "<group>"; };
-		B828EC986E1F719AABB379CD55D92B5B /* FUMakeupValueDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeupValueDefine.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMakeupValueDefine.h"; sourceTree = "<group>"; };
-		B9544CA175FDC878E274D3E35D08CEE6 /* FUFaceRectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFaceRectInfo.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUFaceRectInfo.h"; sourceTree = "<group>"; };
-		BDA152187F5C0017F54DC9D48F3AB721 /* FUFilterDefineKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFilterDefineKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUFilterDefineKey.h"; sourceTree = "<group>"; };
-		BDBBC33351CFC094E7A9FC71C1D4DD50 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		BFD777DD451818D6F5598CA3E9FE956A /* FURenderKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FURenderKit.debug.xcconfig; sourceTree = "<group>"; };
-		C166264D410B073989AE94A916187F23 /* FUSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSticker.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUSticker.h"; sourceTree = "<group>"; };
-		C31E1BA573856929186B93A08F2B20C3 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		C61DB2D04862495E6AD9A231274925FA /* FUPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUPoster.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUPoster.h"; sourceTree = "<group>"; };
-		C9F03B37FC45B7503E6005F2C8098488 /* fuzzytoonfilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = fuzzytoonfilter.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/fuzzytoonfilter.bundle"; sourceTree = "<group>"; };
-		CA55C955AB3CC549CCF0099107707C3A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A52AB1E82031A6EDE84E68F48FAC8F8A /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A5A18747DD0E2D6B807B01BCAB72610A /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		A5D1D415381498ED3B14250243F7401E /* FUActionRecognition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUActionRecognition.h; path = FURenderKit.framework/Headers/FUActionRecognition.h; sourceTree = "<group>"; };
+		AD0595C99530B643E13A35240C3F64C4 /* FUImageHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUImageHelper.h; path = FURenderKit.framework/Headers/FUImageHelper.h; sourceTree = "<group>"; };
+		AD94BE0F4536710E0DF4AFE871E67ADF /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		AE1476323AB0D257584CE2F1E831CA9E /* NMCLiveStreaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMCLiveStreaming.release.xcconfig; sourceTree = "<group>"; };
+		AFCC29DBC5E91C03DB9128F09A95AE5A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		B028B9B19E3394D0BE7F92AE330B4709 /* FUInternalCameraSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUInternalCameraSetting.h; path = FURenderKit.framework/Headers/FUInternalCameraSetting.h; sourceTree = "<group>"; };
+		B97C15B2D0F847370087F7E6A7EC4F35 /* FUVideoProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUVideoProcessor.h; path = FURenderKit.framework/Headers/FUVideoProcessor.h; sourceTree = "<group>"; };
+		BE17F9E9C74DACDD6937C67E02561B07 /* FUGreenScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGreenScreen.h; path = FURenderKit.framework/Headers/FUGreenScreen.h; sourceTree = "<group>"; };
+		C3C986EED061956AE2F914BDB18DB05A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C62A84D9AF9601B9DA793C54B5D23164 /* ai_face_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_face_processor.bundle; path = Resources/model/ai_face_processor.bundle; sourceTree = "<group>"; };
+		C643AD6E0265A25E38657A047FB1C05B /* FUEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUEnum.h; path = FURenderKit.framework/Headers/FUEnum.h; sourceTree = "<group>"; };
+		C73858C3E137D87F861CB43347E27738 /* FUNormalConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUNormalConfig.h; path = FURenderKit.framework/Headers/FUNormalConfig.h; sourceTree = "<group>"; };
 		CAF8FFAF0FE5C115C9FD3A5C24113153 /* Pods-LSMediaCaptureDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LSMediaCaptureDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CCC0D9D57B50D88DAE8469D043C6D48B /* ai_hand_processor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ai_hand_processor.bundle; path = "FURenderKit-v8.3.0/Resources/model/ai_hand_processor.bundle"; sourceTree = "<group>"; };
-		D05F9B6BDB6932E9238FF8F1D6DC4657 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		D417C13F0239842BBCEDF8A56DB6FEEA /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		D53E3C5399F9C7FB83963850060D35C6 /* FUItem+createTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FUItem+createTexture.h"; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUItem+createTexture.h"; sourceTree = "<group>"; };
-		D5CCDCD0D2FAFB57833669F5BDE6BDD1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		D9638920FD442B4C8B115012E1AB2F79 /* FUGroupAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGroupAnimation.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUGroupAnimation.h"; sourceTree = "<group>"; };
-		D9D22AB3C3B36CF52F48436EB05B0072 /* FUBodyBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBodyBeauty.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBodyBeauty.h"; sourceTree = "<group>"; };
+		CCBFFAB176825198EF1CA1E8A9F60CEE /* FUKeysDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUKeysDefine.h; path = FURenderKit.framework/Headers/FUKeysDefine.h; sourceTree = "<group>"; };
+		D244FEC6918ECEDD2DDE0E68A0BA235D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D30B0624208C9CB8410FDD13D01C5775 /* CNamaSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNamaSDK.h; path = FURenderKit.framework/Headers/CNamaSDK.h; sourceTree = "<group>"; };
+		D33BA82A6587FA09A6B6783FDAEC3025 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		D65ECCEF2F60DA70C97FFD2D9A117659 /* FUHairBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUHairBeauty.h; path = FURenderKit.framework/Headers/FUHairBeauty.h; sourceTree = "<group>"; };
+		D718C75DBF76E9A777B2A2FC47E6808D /* FUStickerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUStickerContainer.h; path = FURenderKit.framework/Headers/FUStickerContainer.h; sourceTree = "<group>"; };
+		D8A4B2BD32D8E584A92670B4489ED769 /* FUBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBackground.h; path = FURenderKit.framework/Headers/FUBackground.h; sourceTree = "<group>"; };
 		D9FDE2FCA2487AD15753FA57E10D5536 /* Pods-LSMediaCaptureDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LSMediaCaptureDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBE9CF6DDADC7B4EBC20CBCB685974AF /* FUAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAnimation.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAnimation.h"; sourceTree = "<group>"; };
-		DC9FFCB4403B88427E0A2A20D8A3F08B /* face_beautification.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = face_beautification.bundle; path = "FURenderKit-v8.3.0/Resources/graphics/face_beautification.bundle"; sourceTree = "<group>"; };
-		DFFF092C4DDDB1D08714ED655280C779 /* FUParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUParam.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUParam.h"; sourceTree = "<group>"; };
-		E1CA5167B0DD0EBF70006481C6D17F09 /* FURenderKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FURenderKit-umbrella.h"; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FURenderKit-umbrella.h"; sourceTree = "<group>"; };
-		E3AA1F80F62C5C2621F81FE43DD3295A /* FUGreenScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUGreenScreen.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUGreenScreen.h"; sourceTree = "<group>"; };
-		E488868CDE18CF9FCB5A1BE3688995D5 /* FUComicFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUComicFilter.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUComicFilter.h"; sourceTree = "<group>"; };
-		E4B130AD08757D4666A6425413F78232 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		E9170A7F853912BE70DA9ECE40B6C6EC /* FUBeautyPropertyModeDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBeautyPropertyModeDefine.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBeautyPropertyModeDefine.h"; sourceTree = "<group>"; };
+		DCBF3139E75CDDE89B2440269DBEAAA9 /* FUVideoReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUVideoReader.h; path = FURenderKit.framework/Headers/FUVideoReader.h; sourceTree = "<group>"; };
+		DE2F5868775FBB80D5162A9CA9F1A263 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DF4A3C2A30B67A8BC0CB363089D6DBD3 /* NMCLiveStreaming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMCLiveStreaming.framework; path = NormalSDK/NMCLiveStreaming.framework; sourceTree = "<group>"; };
+		DF7011D2E63B9BFF11E0C4D6BFF1D992 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E0A704A371A7F82B7F51B18C4D4E3746 /* NMCLiveStreaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMCLiveStreaming.debug.xcconfig; sourceTree = "<group>"; };
+		E2FF1A74D6F5863B17AA6428C40B93E2 /* FUItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUItem.h; path = FURenderKit.framework/Headers/FUItem.h; sourceTree = "<group>"; };
+		E64A3717CA5394534C5CE1926175C2BF /* FUVideoComponentDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUVideoComponentDefines.h; path = FURenderKit.framework/Headers/FUVideoComponentDefines.h; sourceTree = "<group>"; };
+		E7C9E6C3DA395AA94CCFEBB8619398D3 /* FUSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSticker.h; path = FURenderKit.framework/Headers/FUSticker.h; sourceTree = "<group>"; };
+		E94BB86616C83B1B0DEB67C8AF911675 /* FUAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAnimation.h; path = FURenderKit.framework/Headers/FUAnimation.h; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SVProgressHUD; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA74AABAEB0D9F143C3D79C257ADA592 /* FUBeauty-Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FUBeauty-Deprecated.h"; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUBeauty-Deprecated.h"; sourceTree = "<group>"; };
-		EC8B14ED69866EA7D805A216CF745C42 /* FUAnimoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAnimoji.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAnimoji.h"; sourceTree = "<group>"; };
-		ECECF0A50D5610C1ADEA5B51E571BF60 /* FUMakeUpColorsKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUMakeUpColorsKey.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUMakeUpColorsKey.h"; sourceTree = "<group>"; };
-		F1C3E44EDF6C483516A7F56C20FEB87D /* FUCaptureCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUCaptureCamera.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUCaptureCamera.h"; sourceTree = "<group>"; };
-		F247727E70CD1E4EA0C20AA85998B821 /* FUAvatarColorKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatarColorKeys.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAvatarColorKeys.h"; sourceTree = "<group>"; };
-		F33E5A2F4FF7A85E04AE36386CCC20D0 /* FUConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUConfig.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUConfig.h"; sourceTree = "<group>"; };
-		F4A30B5A480DDAF80937621F9739F41A /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		F5767E69E8EFEE295E59549BD7502236 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		F6051CA27D2A1C4B7CA08724A744DF9C /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		F6DA19A5DBD7DC210529110591EDF3B6 /* FUAvatar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUAvatar.h; path = "FURenderKit-v8.3.0/FURenderKit.framework/Headers/FUAvatar.h"; sourceTree = "<group>"; };
-		FADB5A9CBC42CA6836DF47E9C488BA11 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		FB87525D099E0413DFE071898DE2F600 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EC6C5469F4CD906911611DF6B2697A85 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		EDCDA5AC8D9012CB53BCDE0652B8CBFA /* FUBodyBeauty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUBodyBeauty.h; path = FURenderKit.framework/Headers/FUBodyBeauty.h; sourceTree = "<group>"; };
+		EFB908C24166BBECE5D98836C502F087 /* FURenderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FURenderKit.framework; sourceTree = "<group>"; };
+		F8978F2965A4E43F9181ABB9AE34BE6E /* FUFaceRectInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUFaceRectInfo.h; path = FURenderKit.framework/Headers/FUFaceRectInfo.h; sourceTree = "<group>"; };
+		F8A6E76D444D49AB8888375FD9A486AD /* FURenderKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FURenderKit.debug.xcconfig; sourceTree = "<group>"; };
+		F8C0B1500FACBCBBCBF4EEE6CA021C21 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		FBC347CD60373E5A68ACB38BA86BA522 /* FUOvonicMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUOvonicMap.h; path = FURenderKit.framework/Headers/FUOvonicMap.h; sourceTree = "<group>"; };
+		FE6C6FA3E2FA5C79FBBFC169D9156DD7 /* aitype.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = aitype.bundle; path = Resources/graphics/aitype.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,18 +271,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		072E38297DD9C9E2526E1A1E12D2B813 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5767E69E8EFEE295E59549BD7502236 /* SVProgressHUD-dummy.m */,
-				5137569416B1FDB693AB1515AB681808 /* SVProgressHUD-prefix.pch */,
-				878AFDF52BDA3564D4E43CE401CA0617 /* SVProgressHUD.debug.xcconfig */,
-				080F13DE59B2E989B21085EEA346E208 /* SVProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
 		1D7E540B857D1F4E41BF8D98D231F12C /* Pods-LSMediaCaptureDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,25 +294,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		21236A39B7941BA4867C5A3E4D42677C /* Resources */ = {
+		34702EF327B5E2494FDB5D38FD798CEF /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				11ED6510214DE9239387EA751E216F8B /* ai_bgseg_green.bundle */,
-				79B8229D77841B59CFC6E91CFC53BC16 /* ai_face_processor.bundle */,
-				2CB419E29CCCEC2CE412AD74F574A6C8 /* ai_face_processor_lite.bundle */,
-				9F493836700346BD5DA348A08F2E0C33 /* ai_face_recognizer.bundle */,
-				CCC0D9D57B50D88DAE8469D043C6D48B /* ai_hand_processor.bundle */,
-				6E5C05DF86E27CAAAB0D7E45CB20F176 /* ai_human_processor.bundle */,
-				3B4D8D94CA7A4F1EC694EABC793025DD /* ai_human_processor_gpu.bundle */,
-				663E0A206F7FFF27C084C22E43249102 /* body_slim.bundle */,
-				3F5A6D39AB99E40046CD539F602101C7 /* controller_cpp.bundle */,
-				DC9FFCB4403B88427E0A2A20D8A3F08B /* face_beautification.bundle */,
-				AE46EC235D96311A23AEEF1ADC2AEEAF /* face_makeup.bundle */,
-				C9F03B37FC45B7503E6005F2C8098488 /* fuzzytoonfilter.bundle */,
-				3BA6E1E308F6F4873AAB9F5B9F65F8A9 /* fxaa.bundle */,
-				807E0E360B7EC07D8023A1279CDB93BD /* tongue.bundle */,
+				123BDDF664DFE98B4A66C7F3ABB7A3E8 /* SVIndefiniteAnimatedView.h */,
+				7F667047B6EE3E8925EBBDD65C511351 /* SVIndefiniteAnimatedView.m */,
+				F8C0B1500FACBCBBCBF4EEE6CA021C21 /* SVProgressAnimatedView.h */,
+				AD94BE0F4536710E0DF4AFE871E67ADF /* SVProgressAnimatedView.m */,
+				7EB64E3F327F6AC77B1F1F82BE1A3F23 /* SVProgressHUD.h */,
+				4E4082B0B780C998C66CF16F24C3E84B /* SVProgressHUD.m */,
+				AFCC29DBC5E91C03DB9128F09A95AE5A /* SVRadialGradientLayer.h */,
+				5073E23482570C39963A8E55689BA2D4 /* SVRadialGradientLayer.m */,
+				4EAC7A316B6FF4C57300D57B161641E5 /* Resources */,
+				44A11E696A038A8729A6D826295E2E38 /* Support Files */,
 			);
-			name = Resources;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		370FD7C1844524C37EEED5C33658E144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB908C24166BBECE5D98836C502F087 /* FURenderKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		43E4C4D1869E971E7BFA65268401BD69 /* Products */ = {
@@ -336,169 +330,182 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4443D75EEB039A17A906319F0ED4CF4F /* Frameworks */ = {
+		44A11E696A038A8729A6D826295E2E38 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				562AAE9EE3CF57B755C7C7BA9034295E /* FURenderKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4A4B72A47C736A4FC159612D09AB650E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				001EBD7BFFD6A1F70B25D9912BBE819A /* NMCBasicModuleFramework.framework */,
-				06C654F9BA2D590C354E77BA3576DE92 /* NMCLiveStreaming.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		791DD65757E01368DC28B8672CB2696C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFD777DD451818D6F5598CA3E9FE956A /* FURenderKit.debug.xcconfig */,
-				712E500371C1F5ED24E2975038997F6A /* FURenderKit.release.xcconfig */,
+				36E01FBFA8152082F189130E02CA63B4 /* SVProgressHUD-dummy.m */,
+				6E65830A957FC042D7A14F2CC0FD1C78 /* SVProgressHUD-prefix.pch */,
+				5C54446E03FA35E6134FAF295F98F058 /* SVProgressHUD.debug.xcconfig */,
+				A1C2B08E8FDA44D662D3118967FFBAAA /* SVProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FURenderKit";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		7A474EFED3C22526B676B6B2064EBA0C /* Resources */ = {
+		47BBFD46AE7CE81525668E3BA97BDCAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EF5997D35333A49F454383309B19AEB /* NMCVideoFilter.bundle */,
+				4074A6DD21AE113B15AEC0EC490B904A /* NMCBasicModuleFramework.framework */,
+				DF4A3C2A30B67A8BC0CB363089D6DBD3 /* NMCLiveStreaming.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4849EE8C34E80AFB0E8B7B2CF47B4FE8 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DF7011D2E63B9BFF11E0C4D6BFF1D992 /* MASCompositeConstraint.h */,
+				6E76D0D350B177EA7652AAFDD9F01C8D /* MASCompositeConstraint.m */,
+				5BB15EDEB61C6CEEA5B7284481A7CCD0 /* MASConstraint.h */,
+				5B9931EAFA95989D14E9504DD530CD4E /* MASConstraint.m */,
+				6C49431EFBDFC4BC6B4F43A4C327A719 /* MASConstraint+Private.h */,
+				A52AB1E82031A6EDE84E68F48FAC8F8A /* MASConstraintMaker.h */,
+				9CA97A990913D390D290B530D6EBD79D /* MASConstraintMaker.m */,
+				3D865F7A990221179106F2447239FAF6 /* MASLayoutConstraint.h */,
+				9EF5B77E02896B891056DF0B7B7BC6CA /* MASLayoutConstraint.m */,
+				A1189F94DB24F916A22A2FD7686E2674 /* Masonry.h */,
+				D33BA82A6587FA09A6B6783FDAEC3025 /* MASUtilities.h */,
+				76BEE92094864AED7B5FEC49B10247AE /* MASViewAttribute.h */,
+				A5A18747DD0E2D6B807B01BCAB72610A /* MASViewAttribute.m */,
+				7D9A0DFD2B2D56146BF9151645EF7938 /* MASViewConstraint.h */,
+				9A287C5C7D64400D0E9D61BB0BA06732 /* MASViewConstraint.m */,
+				11C2DE442DD49DBF4F57EC0C0B35D585 /* NSArray+MASAdditions.h */,
+				63B8D43F515FD2586562D3985584F32F /* NSArray+MASAdditions.m */,
+				21793BE8955F2E6CA23CC119247A03A7 /* NSArray+MASShorthandAdditions.h */,
+				5FE24BBCD9DA0943F755D5368D6E0AED /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DE2F5868775FBB80D5162A9CA9F1A263 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				326AD7157E11AED34D868778AEE15520 /* View+MASAdditions.h */,
+				2EEAA26E37A854CA9EFF59216CA83630 /* View+MASAdditions.m */,
+				C3C986EED061956AE2F914BDB18DB05A /* View+MASShorthandAdditions.h */,
+				D244FEC6918ECEDD2DDE0E68A0BA235D /* ViewController+MASAdditions.h */,
+				EC6C5469F4CD906911611DF6B2697A85 /* ViewController+MASAdditions.m */,
+				600C016E9C34ABE2EFCB96B7E1C7BF48 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		4EAC7A316B6FF4C57300D57B161641E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE4C93C0C75B097B4DAA3E9AC4E439 /* SVProgressHUD.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		91520FF36C9D033740779043B6E9B8F4 /* Pods */ = {
+		52260AE703FB5583E67A805FFD1E2DA0 /* FURenderKit */ = {
 			isa = PBXGroup;
 			children = (
-				A7AA4375CC6D8DA4A3B42FDC61C34204 /* FURenderKit */,
-				FE5940F64F0492587637B9763BD22DA0 /* Masonry */,
-				DB716E935E07E702A5FF2E8792068EEB /* NMCLiveStreaming */,
-				A7318F7DE02BA4435879EEA48022E45A /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		95F166A4BC17F403561DBD78C0AF78D2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D05F9B6BDB6932E9238FF8F1D6DC4657 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A7318F7DE02BA4435879EEA48022E45A /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F6051CA27D2A1C4B7CA08724A744DF9C /* SVIndefiniteAnimatedView.h */,
-				75A75E08C1A84A6354C9141D3EA0079C /* SVIndefiniteAnimatedView.m */,
-				BDBBC33351CFC094E7A9FC71C1D4DD50 /* SVProgressAnimatedView.h */,
-				A6CB2C7FDF953A5962191D1D6041DD43 /* SVProgressAnimatedView.m */,
-				A846C3C0236C4CE68878D3BFA2C7F697 /* SVProgressHUD.h */,
-				B4AE989A06C9D1B9A65E913C6ACDFC0F /* SVProgressHUD.m */,
-				61302F4806C8D44D2758EA84AA5CFB9E /* SVRadialGradientLayer.h */,
-				5F1AE712936750077C90CAF5F465524F /* SVRadialGradientLayer.m */,
-				95F166A4BC17F403561DBD78C0AF78D2 /* Resources */,
-				072E38297DD9C9E2526E1A1E12D2B813 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		A7AA4375CC6D8DA4A3B42FDC61C34204 /* FURenderKit */ = {
-			isa = PBXGroup;
-			children = (
-				B20CB8221AB6C30C932469EEA76B95A4 /* CNamaSDK.h */,
-				98940859C9E871564E445D6B55892A3D /* FUActionRecognition.h */,
-				10E75DE3842C477DD5A4ADA947349174 /* FUAIConfig.h */,
-				831517284D38068F7A3548FFB390A4C6 /* FUAIKit.h */,
-				76F6B24451FD12C565218B82DC8F6B72 /* FUAISegment.h */,
-				DBE9CF6DDADC7B4EBC20CBCB685974AF /* FUAnimation.h */,
-				EC8B14ED69866EA7D805A216CF745C42 /* FUAnimoji.h */,
-				F6DA19A5DBD7DC210529110591EDF3B6 /* FUAvatar.h */,
-				B0266B3065E338E5B9026B1383EF0A18 /* FUAvatarCheck.h */,
-				F247727E70CD1E4EA0C20AA85998B821 /* FUAvatarColorKeys.h */,
-				0940DF4788465B14718B12AC7BFF91F4 /* FUAvatarMakeup.h */,
-				05AB60250F9B338DF4ABED3D45788A14 /* FUBackground.h */,
-				54B5DD5E013CEA188AEB1651EE31B0FC /* FUBeauty.h */,
-				EA74AABAEB0D9F143C3D79C257ADA592 /* FUBeauty-Deprecated.h */,
-				E9170A7F853912BE70DA9ECE40B6C6EC /* FUBeautyPropertyModeDefine.h */,
-				D9D22AB3C3B36CF52F48436EB05B0072 /* FUBodyBeauty.h */,
-				B7035B571E356B217261FFB7BF216FD5 /* FUBodyBeautyDefineKeys.h */,
-				9C1A5180379B9CFD8F62900F2B8974B0 /* FUCameraAnimation.h */,
-				F1C3E44EDF6C483516A7F56C20FEB87D /* FUCaptureCamera.h */,
-				4A81704DEBE676BCE1A8E6C0CA56E181 /* FUCLIColor.h */,
-				E488868CDE18CF9FCB5A1BE3688995D5 /* FUComicFilter.h */,
-				F33E5A2F4FF7A85E04AE36386CCC20D0 /* FUConfig.h */,
-				AD2EC1B99DD8265F67BCACAD4EF02596 /* FUCustomBackground.h */,
-				6EC8312D7C4D97E6915CA19BDE53F65F /* FUDeformationKeys.h */,
-				1711F8418D6E0B8E0027617E748A6EA0 /* FUEnum.h */,
-				1B36580769714FEB1606C95FEE548191 /* FUFacepupKeys.h */,
-				B9544CA175FDC878E274D3E35D08CEE6 /* FUFaceRectInfo.h */,
-				A4FF0D3D52DF11733628A7EE933663B2 /* FUFacialFeatures.h */,
-				BDA152187F5C0017F54DC9D48F3AB721 /* FUFilterDefineKey.h */,
-				62EA5DFE2CB4270EB5C9A7A42661A611 /* FUGesture.h */,
-				19561A3A4FED43753B3EA9EA62924BD0 /* FUGLContext.h */,
-				A4AA8CFFFF36B1DA8D69F79CE118AE37 /* FUGLDisplayView.h */,
-				E3AA1F80F62C5C2621F81FE43DD3295A /* FUGreenScreen.h */,
-				D9638920FD442B4C8B115012E1AB2F79 /* FUGroupAnimation.h */,
-				5E4C02EFC5C27689489F9F3AFE58F58F /* FUHairBeauty.h */,
-				3F043568C6B922AE9BA2E2FED343D1D5 /* FUHairDefineKey.h */,
-				0DCF951BF530CFCA266C948E1DE4A09B /* FUImageHelper.h */,
-				6CBCF2C0790D4FFD93CB0D684560B065 /* FUInternalCameraSetting.h */,
-				728AA06F0C670D6551FE3AA45260BE44 /* FUItem.h */,
-				D53E3C5399F9C7FB83963850060D35C6 /* FUItem+createTexture.h */,
-				0D6BA331CF0CCA179333E3BFF94BDDB4 /* FUKeysDefine.h */,
-				7103DE1FF654FB8C22A1A4B9053024F3 /* FULight.h */,
-				5F2341E3B58DC20FF94FEB44293AAF47 /* FULightMakeup.h */,
-				60C2527ADAC853BAC187599FBB2E2755 /* FULightMakeUpTextureKeyDefineKey.h */,
-				A9B79DD7C8DCD9C7967A937BD6839917 /* FUMakeup.h */,
-				4F57B99F72FF2D119FFBABC0FEA9C233 /* FUMakeUpChildStrengthDefineKey.h */,
-				ECECF0A50D5610C1ADEA5B51E571BF60 /* FUMakeUpColorsKey.h */,
-				474007E77C5E3E445CF5250D34BE7568 /* FUMakeUpTextureKey.h */,
-				B828EC986E1F719AABB379CD55D92B5B /* FUMakeupValueDefine.h */,
-				0AA5D41246C4CF83D4FBFE717AF9D476 /* FUMusicFilter.h */,
-				6482160759D517DADA9147EEF457CE93 /* FUNormalConfig.h */,
-				4327B35546AF81A827C58C1613ED4DC0 /* FUOvonicMap.h */,
-				DFFF092C4DDDB1D08714ED655280C779 /* FUParam.h */,
-				C61DB2D04862495E6AD9A231274925FA /* FUPoster.h */,
-				42B4906992371404A2530A733C4DB1DD /* FUQualitySticker.h */,
-				5398C8C5E01417BF7966A376BEFE88C3 /* FURecordEncoder.h */,
-				52C56BB56B62B693AE9B511B0D9EC027 /* FURenderableObject.h */,
-				5EE2B1A82DE72EC51487601C4F0933E5 /* FURenderer.h */,
-				9F35EB139A18060E63B6A95222511282 /* FURenderIO.h */,
-				493FFFE8A2BC3F668BFEE29B644BFAAB /* FURenderKit.h */,
-				E1CA5167B0DD0EBF70006481C6D17F09 /* FURenderKit-umbrella.h */,
-				93D203E978DB00F094F59930EE0423EF /* FUScene.h */,
-				549558EE9C79E0D2CEE40FB9E8D2F0AA /* FUSceneCamera.h */,
-				5B7A0003E8E9B720CCF386F3C3C3C06A /* FUSetupConfig.h */,
-				C166264D410B073989AE94A916187F23 /* FUSticker.h */,
-				54BB780AC69640CA6EEC687E9A01BCEB /* FUStickerContainer.h */,
-				1E02B5FBA061AFCFF1FFA2657651659A /* FUStruct.h */,
-				82E1B455AFBDF8D7EDBF721EDCFDF897 /* metamacros.h */,
-				0813D9BAC0C1E89ADE2AAC08A7C557C9 /* UIDevice+FURenderKit.h */,
-				24EB0B54CB7CB2ADF4ED7747AE279016 /* UIImage+FURenderKit.h */,
-				4443D75EEB039A17A906319F0ED4CF4F /* Frameworks */,
-				21236A39B7941BA4867C5A3E4D42677C /* Resources */,
-				791DD65757E01368DC28B8672CB2696C /* Support Files */,
+				D30B0624208C9CB8410FDD13D01C5775 /* CNamaSDK.h */,
+				A5D1D415381498ED3B14250243F7401E /* FUActionRecognition.h */,
+				514BB6CC9163D436B546317238A39F16 /* FUAIConfig.h */,
+				5CB5E59C2E3A219511E649517F8A57A0 /* FUAIKit.h */,
+				7581C4E213E6497DAA77DF334D39396A /* FUAISegment.h */,
+				E94BB86616C83B1B0DEB67C8AF911675 /* FUAnimation.h */,
+				8FD464A05073ABA2749B9AB47919D430 /* FUAnimoji.h */,
+				2603ABB3DC55A87051638AEB944A431C /* FUAvatar.h */,
+				81F55B36FED511DAD10216A380E2D127 /* FUAvatarCheck.h */,
+				6C1050A6DAE7864527020CA1BAAE1B35 /* FUAvatarColorKeys.h */,
+				479503CACA938E3C892439CEE2D9135B /* FUAvatarMakeup.h */,
+				D8A4B2BD32D8E584A92670B4489ED769 /* FUBackground.h */,
+				9DD2972DD12ED057D27B4A5DFE5361D1 /* FUBeauty.h */,
+				7D3391854C6D704EF14B7F113A34F4CB /* FUBeauty-Deprecated.h */,
+				232F67F5AC8952E24A91352AAF838739 /* FUBeautyPropertyModeDefine.h */,
+				EDCDA5AC8D9012CB53BCDE0652B8CBFA /* FUBodyBeauty.h */,
+				683F22CA336009EA7FE00F9BEE91A814 /* FUBodyBeautyDefineKeys.h */,
+				7700417A70361019E56F097E83D3D723 /* FUCameraAnimation.h */,
+				01F6A2D678BDDE79686A3B2F2C78E17C /* FUCaptureCamera.h */,
+				982C6895983096661F3770422A6EC8D3 /* FUCLIColor.h */,
+				8DC3348F025E7346EEA29CD49DB0AB89 /* FUComicFilter.h */,
+				2CA4373044FD44A5258ED9B5BBD15714 /* FUConfig.h */,
+				612FD65C85055A20BA16F78EF2BD495F /* FUCustomBackground.h */,
+				72C768557108FBB8ED3FB10967970E32 /* FUDeformationKeys.h */,
+				C643AD6E0265A25E38657A047FB1C05B /* FUEnum.h */,
+				464C1E3C61C1167CECF1C7160CD4CC0D /* FUFacepupKeys.h */,
+				F8978F2965A4E43F9181ABB9AE34BE6E /* FUFaceRectInfo.h */,
+				9C445617F42EA7EEFCC620C228BF5F9F /* FUFacialFeatures.h */,
+				5EEA6387B5698050B00376F4E9EDD862 /* FUFilterDefineKey.h */,
+				07B201045BC7462A088F0AF53F7FF384 /* FUGesture.h */,
+				04435A51454B2082257AF9E33E332DD0 /* FUGLContext.h */,
+				2A22A16DD2D2030118A9BD84E02B5FB8 /* FUGLDisplayView.h */,
+				BE17F9E9C74DACDD6937C67E02561B07 /* FUGreenScreen.h */,
+				1582CCB157BE39A115DEBD2284C16B9A /* FUGroupAnimation.h */,
+				D65ECCEF2F60DA70C97FFD2D9A117659 /* FUHairBeauty.h */,
+				320F580C2E9F95B5AF50720B434A1AC5 /* FUHairDefineKey.h */,
+				AD0595C99530B643E13A35240C3F64C4 /* FUImageHelper.h */,
+				B028B9B19E3394D0BE7F92AE330B4709 /* FUInternalCameraSetting.h */,
+				E2FF1A74D6F5863B17AA6428C40B93E2 /* FUItem.h */,
+				4348D735B8B806FA8A21C11FB8D07852 /* FUItem+createTexture.h */,
+				CCBFFAB176825198EF1CA1E8A9F60CEE /* FUKeysDefine.h */,
+				96B03A91EFC58862310DB3F2F72DE840 /* FULight.h */,
+				70E2C1BBFBDD50BCD637E083AAC92155 /* FULightMakeup.h */,
+				0DB4656F82542674221C740F6A465062 /* FULightMakeUpTextureKeyDefineKey.h */,
+				23FFBEBA734CD376281E315720AE17F3 /* FUMakeup.h */,
+				3A21777862CBA684EE642EC78DEE0B76 /* FUMakeUpChildStrengthDefineKey.h */,
+				128B353B3F705874A5CFBE1F48CD3532 /* FUMakeUpColorsKey.h */,
+				287467A701E1838FD8BD63A578FF4E2C /* FUMakeUpTextureKey.h */,
+				4DC08AF6D93562A51D05727DE62326A7 /* FUMakeupValueDefine.h */,
+				3AB94596B0EBB45881A8CCEF2C9FD67D /* FUMusicFilter.h */,
+				C73858C3E137D87F861CB43347E27738 /* FUNormalConfig.h */,
+				FBC347CD60373E5A68ACB38BA86BA522 /* FUOvonicMap.h */,
+				68D769C585857793681B1CE18E9D335F /* FUParam.h */,
+				58C8DEBF0934B248F3F9532D4F1F7D33 /* FUPoster.h */,
+				65A0DFDBFA445D969A6AC3A81A87AC2D /* FUQualitySticker.h */,
+				7433B3C266CFCC665FA7AD561C39FD7E /* FURenderableObject.h */,
+				309CBCE8F5AAC20090B8B6AD5F8961C7 /* FURenderer.h */,
+				2041B8289CE01C9BC99657C8026B3F51 /* FURenderIO.h */,
+				26409DE90A4E085BB3F8ED92091A02A0 /* FURenderKit.h */,
+				417FAFC17A65415427C74DEA30D79A4B /* FURenderKit-umbrella.h */,
+				9025F7D3C1C0AA1DA6EE83D349A689C9 /* FUScene.h */,
+				5A84110FFF2C0E6F9488BCBE514115A6 /* FUSceneCamera.h */,
+				1CD50F517ABAC92B11019CB555D115D1 /* FUSetupConfig.h */,
+				E7C9E6C3DA395AA94CCFEBB8619398D3 /* FUSticker.h */,
+				D718C75DBF76E9A777B2A2FC47E6808D /* FUStickerContainer.h */,
+				1776E5AFC16DC7B180729C5EE701E525 /* FUStruct.h */,
+				E64A3717CA5394534C5CE1926175C2BF /* FUVideoComponentDefines.h */,
+				B97C15B2D0F847370087F7E6A7EC4F35 /* FUVideoProcessor.h */,
+				DCBF3139E75CDDE89B2440269DBEAAA9 /* FUVideoReader.h */,
+				747BBB83FC81018CA42FEDB491949955 /* FUVideoSettings.h */,
+				18544E974D26F6334D5616227BE564AF /* FUVideoWriter.h */,
+				9D3414000AD591BDB2B0700DB56EBF8C /* metamacros.h */,
+				6CB61B1A38C0DB2C7031CA12378DF7D6 /* UIDevice+FURenderKit.h */,
+				7C3E8BF15053F265C93F0C6928FEA7D2 /* UIImage+FURenderKit.h */,
+				370FD7C1844524C37EEED5C33658E144 /* Frameworks */,
+				977C65B8AF13F561A610EAAED9FB3D2D /* Resources */,
+				DACDD29B810F70576CEE281C07D7FE42 /* Support Files */,
 			);
 			name = FURenderKit;
 			path = FURenderKit;
 			sourceTree = "<group>";
 		};
-		C114DDE39A1D20E372F5D4E57D5FF7DB /* Support Files */ = {
+		600C016E9C34ABE2EFCB96B7E1C7BF48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9EB4E4C654E8943ED01C69FBFB3359F2 /* Masonry-dummy.m */,
-				284F5750FCE33E3B9688085B2A11D40C /* Masonry-prefix.pch */,
-				2E2AAD3E702FF1261C474B980D7868CD /* Masonry.debug.xcconfig */,
-				4C517D26239D23C0CE54B23487DDAEB5 /* Masonry.release.xcconfig */,
+				56FCB42BBB48D9A80C3391FE55F37486 /* Masonry-dummy.m */,
+				A1D29E69E6F7AE02CE2664D05136EB6B /* Masonry-prefix.pch */,
+				5946349A40CEE0EE148BC7DCF385A290 /* Masonry.debug.xcconfig */,
+				3A5E99036F6C0D626DA1745CC80D4336 /* Masonry.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		977C65B8AF13F561A610EAAED9FB3D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C62A84D9AF9601B9DA793C54B5D23164 /* ai_face_processor.bundle */,
+				65071481AC683EFCF4284F4751BE1B9B /* ai_hand_processor.bundle */,
+				11652B04DB0C7A2191D2E702C83D2F62 /* ai_human_processor.bundle */,
+				FE6C6FA3E2FA5C79FBBFC169D9156DD7 /* aitype.bundle */,
+				710E445E8D8360FCCC011B8E45EDF6C8 /* body_slim.bundle */,
+				19EF7F7F2D2F0849146CF446B7C0322D /* controller_cpp.bundle */,
+				1EAF633B7870E22FCE7E5EBADDD230B2 /* face_beautification.bundle */,
+				30A820897CACC9751D2E5CC2B0328CE6 /* face_makeup.bundle */,
+				987A19FAFA2AA00153E8D05E74BE910D /* fuzzytoonfilter.bundle */,
+				13F606F106B36916B7ABDB890BF75440 /* fxaa.bundle */,
+				8F768D18B91FE5ADF55C2FB3E2977337 /* tongue.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -506,20 +513,21 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				91520FF36C9D033740779043B6E9B8F4 /* Pods */,
+				D2788D80ED0E25972416E8685095E17A /* Pods */,
 				43E4C4D1869E971E7BFA65268401BD69 /* Products */,
 				1F0B32579223BE5782CE1E35D0626146 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D8683FEBA31DCD89386A01D6880F7CD1 /* Support Files */ = {
+		D2788D80ED0E25972416E8685095E17A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE2EFE7E0C226A7E748C6A6466217B3F /* NMCLiveStreaming.debug.xcconfig */,
-				A9F4E303E7B526E5ED78CE4C450D943E /* NMCLiveStreaming.release.xcconfig */,
+				52260AE703FB5583E67A805FFD1E2DA0 /* FURenderKit */,
+				4849EE8C34E80AFB0E8B7B2CF47B4FE8 /* Masonry */,
+				E98C3180F949EECC06ED8840DF714EC1 /* NMCLiveStreaming */,
+				34702EF327B5E2494FDB5D38FD798CEF /* SVProgressHUD */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NMCLiveStreaming";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -529,49 +537,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB716E935E07E702A5FF2E8792068EEB /* NMCLiveStreaming */ = {
+		DACDD29B810F70576CEE281C07D7FE42 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A4B72A47C736A4FC159612D09AB650E /* Frameworks */,
-				7A474EFED3C22526B676B6B2064EBA0C /* Resources */,
-				D8683FEBA31DCD89386A01D6880F7CD1 /* Support Files */,
+				F8A6E76D444D49AB8888375FD9A486AD /* FURenderKit.debug.xcconfig */,
+				2A1F22228E49F107A4BEDC69734002A8 /* FURenderKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FURenderKit";
+			sourceTree = "<group>";
+		};
+		E98C3180F949EECC06ED8840DF714EC1 /* NMCLiveStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				47BBFD46AE7CE81525668E3BA97BDCAF /* Frameworks */,
+				F868124114DFCF83F3721799EEA31DC7 /* Resources */,
+				FE2F6281652F0145AE47256B95BA7772 /* Support Files */,
 			);
 			name = NMCLiveStreaming;
 			path = NMCLiveStreaming;
 			sourceTree = "<group>";
 		};
-		FE5940F64F0492587637B9763BD22DA0 /* Masonry */ = {
+		F868124114DFCF83F3721799EEA31DC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E4B130AD08757D4666A6425413F78232 /* MASCompositeConstraint.h */,
-				153DE3870B1EFC48FAD1A3E5466E86C3 /* MASCompositeConstraint.m */,
-				F4A30B5A480DDAF80937621F9739F41A /* MASConstraint.h */,
-				A7B8BB62951E9D663301DE9DB491BE54 /* MASConstraint.m */,
-				FB87525D099E0413DFE071898DE2F600 /* MASConstraint+Private.h */,
-				CA55C955AB3CC549CCF0099107707C3A /* MASConstraintMaker.h */,
-				D5CCDCD0D2FAFB57833669F5BDE6BDD1 /* MASConstraintMaker.m */,
-				3DCA071096C4DC35A292577B9B405CFA /* MASLayoutConstraint.h */,
-				830D1A7CD4AC895708E4AF4E83BB6EAE /* MASLayoutConstraint.m */,
-				A2C210FB40ECD3B05D798C515949306D /* Masonry.h */,
-				91CC033AAE707F3C55B61663DB546366 /* MASUtilities.h */,
-				42FD257D64E6C25E4A6015BF53B7E832 /* MASViewAttribute.h */,
-				542686F9A088678C3179271E6DCD7783 /* MASViewAttribute.m */,
-				4FC0A756E8B760030C86FAA076A5D19C /* MASViewConstraint.h */,
-				D417C13F0239842BBCEDF8A56DB6FEEA /* MASViewConstraint.m */,
-				C31E1BA573856929186B93A08F2B20C3 /* NSArray+MASAdditions.h */,
-				877CE7F5F5E75FCF3E200EF869CD3CEA /* NSArray+MASAdditions.m */,
-				8A9C6EBD514B17BC504502277339AC30 /* NSArray+MASShorthandAdditions.h */,
-				FADB5A9CBC42CA6836DF47E9C488BA11 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				6618FF34A5CF7B0B873743D7F784C3E4 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				060170161977086843DE65E5ABF13930 /* View+MASAdditions.h */,
-				54D0D78A7636F075D1F02BC9336F34FA /* View+MASAdditions.m */,
-				8C4AFB1E494535A1D9E59A242196028E /* View+MASShorthandAdditions.h */,
-				2701378E10A6016BE7423630433E985E /* ViewController+MASAdditions.h */,
-				1CD0063F05E493CEFA2671EA6227676C /* ViewController+MASAdditions.m */,
-				C114DDE39A1D20E372F5D4E57D5FF7DB /* Support Files */,
+				2DE33184F88425AA22067C5B6B25402B /* NMCVideoFilter.bundle */,
 			);
-			name = Masonry;
-			path = Masonry;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE2F6281652F0145AE47256B95BA7772 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A704A371A7F82B7F51B18C4D4E3746 /* NMCLiveStreaming.debug.xcconfig */,
+				AE1476323AB0D257584CE2F1E831CA9E /* NMCLiveStreaming.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMCLiveStreaming";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -631,10 +633,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				3630AA2BE3B035F3CF82DCA593EB0CF5 /* PBXTargetDependency */,
-				750CFC1ACAB0C2A107D0AD596B1A4B54 /* PBXTargetDependency */,
-				FF899D066DEAA15D558BA0C207B7D9E2 /* PBXTargetDependency */,
-				67F780FDCE1E2FEC502791C1FC0869B8 /* PBXTargetDependency */,
+				C49D4B7FEBFC6C4D5F295A92570B668C /* PBXTargetDependency */,
+				ECE5079A20C7AD96BD29A31E70EF240A /* PBXTargetDependency */,
+				837F9F32A8BE35BA605FCB6E5353BA13 /* PBXTargetDependency */,
+				253DD2514779E314C59687186382E2A0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LSMediaCaptureDemo";
 			productName = "Pods-LSMediaCaptureDemo";
@@ -748,36 +750,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3630AA2BE3B035F3CF82DCA593EB0CF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FURenderKit;
-			target = 7396CCEA2B062951F0F31B5654854F80 /* FURenderKit */;
-			targetProxy = 060206B03EB43B5A58D130682E33D291 /* PBXContainerItemProxy */;
-		};
-		67F780FDCE1E2FEC502791C1FC0869B8 /* PBXTargetDependency */ = {
+		253DD2514779E314C59687186382E2A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = DF06C7F788A85FDF0F8BB49A7E5F030F /* PBXContainerItemProxy */;
+			targetProxy = A8B404DED07E154B4345A024B12B71DD /* PBXContainerItemProxy */;
 		};
-		750CFC1ACAB0C2A107D0AD596B1A4B54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = FCC446EEE6AE96CAB5F6436BA18584EC /* PBXContainerItemProxy */;
-		};
-		FF899D066DEAA15D558BA0C207B7D9E2 /* PBXTargetDependency */ = {
+		837F9F32A8BE35BA605FCB6E5353BA13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NMCLiveStreaming;
 			target = 989226837DA4E889BEC0EA512953E76C /* NMCLiveStreaming */;
-			targetProxy = 64BD84A13EF14094863679757730D419 /* PBXContainerItemProxy */;
+			targetProxy = 83887BFC3D5EA0E7AB97F39EB95F5C7D /* PBXContainerItemProxy */;
+		};
+		C49D4B7FEBFC6C4D5F295A92570B668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FURenderKit;
+			target = 7396CCEA2B062951F0F31B5654854F80 /* FURenderKit */;
+			targetProxy = A2F88238D78E3AA26A23532DEC17A830 /* PBXContainerItemProxy */;
+		};
+		ECE5079A20C7AD96BD29A31E70EF240A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = C7BBE31B2918290C4D43656994E26D4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00C9ACCF7A6F0A479C1B0C1DC6E48E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFD777DD451818D6F5598CA3E9FE956A /* FURenderKit.debug.xcconfig */;
+			baseConfigurationReference = F8A6E76D444D49AB8888375FD9A486AD /* FURenderKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -790,7 +792,7 @@
 		};
 		1CF0725889768B934170CB17168CE015 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878AFDF52BDA3564D4E43CE401CA0617 /* SVProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 5C54446E03FA35E6134FAF295F98F058 /* SVProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -898,7 +900,7 @@
 		};
 		5689B70536028B61AFC9A47197395506 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E2AAD3E702FF1261C474B980D7868CD /* Masonry.debug.xcconfig */;
+			baseConfigurationReference = 5946349A40CEE0EE148BC7DCF385A290 /* Masonry.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -920,7 +922,7 @@
 		};
 		622EAD979306AACF38A24D3AFCBE943C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 080F13DE59B2E989B21085EEA346E208 /* SVProgressHUD.release.xcconfig */;
+			baseConfigurationReference = A1C2B08E8FDA44D662D3118967FFBAAA /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -964,7 +966,7 @@
 		};
 		7C02F194CB4B2B50EA320F9EFA7CD08B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C517D26239D23C0CE54B23487DDAEB5 /* Masonry.release.xcconfig */;
+			baseConfigurationReference = 3A5E99036F6C0D626DA1745CC80D4336 /* Masonry.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -987,7 +989,7 @@
 		};
 		9E73EBC14231F519ACD9FB19D75CDEF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 712E500371C1F5ED24E2975038997F6A /* FURenderKit.release.xcconfig */;
+			baseConfigurationReference = 2A1F22228E49F107A4BEDC69734002A8 /* FURenderKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1001,7 +1003,7 @@
 		};
 		A63999E373C9D08AB66700F40F811F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE2EFE7E0C226A7E748C6A6466217B3F /* NMCLiveStreaming.debug.xcconfig */;
+			baseConfigurationReference = E0A704A371A7F82B7F51B18C4D4E3746 /* NMCLiveStreaming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1076,7 +1078,7 @@
 		};
 		FF9563110D9D86FE397B261B7160E576 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9F4E303E7B526E5ED78CE4C450D943E /* NMCLiveStreaming.release.xcconfig */;
+			baseConfigurationReference = AE1476323AB0D257584CE2F1E831CA9E /* NMCLiveStreaming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
